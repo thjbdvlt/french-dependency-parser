@@ -33,3 +33,13 @@ for i in train dev test
 do
     cat $(fd -I ${i}.conllu$) > ${i}.conllu
 done
+
+# download model, unzip, extract
+wget \
+    https://github.com/thjbdvlt/turlututu/releases/download/v0.0.1/model-2024-07-21-00h40.tar.gz \
+    -O model.tar.gz
+gunzip model.tar.gz
+tar -xvf model.tar
+
+# delete archive, only keeping the directory model
+rm model.tar -rf
