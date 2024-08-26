@@ -1,7 +1,7 @@
 [project]
-name = ""
+name = "french-dependency-parser"
 authors = [{name="thjbdvlt"}]
-version = "0.1.0"
+version = "0.0.1"
 description = "syntactic dependency parser for french with spacy"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = ""
+Homepage = "https://github.com/thjbdvlt/french-dependency-parser"
 
 [build-system]
 requires = ["setuptools"]
