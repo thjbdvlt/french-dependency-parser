@@ -39,6 +39,7 @@ python3 du_de_le.py
 
 for i in train dev test
 do
+    rg -v '^\d+-\d' ${i}.conllu | sponge ${i}.conllu
     echo "converting ${i} from .conllu to spacy format..."
     [ -f ${i}.spacy ] || spacy convert ${i}.conllu . -n 10
 done

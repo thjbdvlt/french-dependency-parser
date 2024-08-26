@@ -44,8 +44,8 @@ for i in ("dev", "train", "test"):
                     ],
                 ],
             ):
-                m[2]["deprel"] = "det"
-                m[2]["form"] = m[0]["form"]
+                m[2]["deprel"] = f"{m[1]['deprel']}:{m[2]['deprel']}"
+                m[2]["form"] = m[0]["form"] 
                 m[1]["form"] = None
                 m[1]["deprel"] = None
             f.write(s.serialize())
