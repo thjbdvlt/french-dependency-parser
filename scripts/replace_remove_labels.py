@@ -1,7 +1,7 @@
 import conllu
 import matcher
 
-fp_lookup = "./lookup.txt"
+fp_lookup = "./lookup_labels.txt"
 with open(fp_lookup, 'r') as f:
     lines = f.readlines()
 

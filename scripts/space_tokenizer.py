@@ -19,14 +19,6 @@ class BlankTokenizer:
         pass
 
 
-# @registry.tokenizers("blank_tokenizer")
-# def create_blank_tokenizer():
-#     def make_tokenizer(nlp):
-#         return BlankTokenizer(nlp.vocab)
-#
-#     return make_tokenizer
-
-
 @registry.callbacks("space_tokenizer")
 def make_space_tokenizer():
     def space_tokenizer(nlp):

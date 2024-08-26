@@ -8,6 +8,9 @@
 
 set -e
 
+root=$(git rev-parse --show-toplevel)
+cd "$root"
+
 # base url
 gh=https://github.com/UniversalDependencies/UD_French-
 
@@ -37,7 +40,7 @@ do
     [ -f ${i}.conllu ] || cat $(fd -I ${i}.conllu$) > ${i}.conllu
 done
 
-python3 du_de_le.py
+python3 scripts/replace_remove_labels.py
 
 for i in train dev test
 do
@@ -47,10 +50,10 @@ do
 done
 
 # remove underscore fake-tokens and update attribute head
-python3 remove_underscore.py
+python3 scripts/remove_underscore.py
 
 # make space-separated docs to avoid tokenization mismatching
-python3 split_tokens.py
+python3 scripts/split_tokens.py
 
 # TODO: download vectors from french_word_vectors
 # TODO: convert vectors from word2vec to spacy format
