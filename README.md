@@ -18,7 +18,7 @@ is transformed into:
 11	du	...	19	case:det	_	_
 ```
 
-upon that, some labels are replaced by others, and sentences containing certain labels (such as `dep` which indicates than the parsing failed) are removed. for a list of replaced or removed labels, refer the file [lookup.txt](./lookup.txt).
+upon that, some labels are replaced by others, and sentences containing certain labels (such as `dep` which indicates than the parsing failed) are removed. for a list of replaced or removed labels, refer the file [labels_lookup.txt](./labels_lookup.txt).
 
 usage
 -----
