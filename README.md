@@ -4,7 +4,7 @@ this repository is comprised of scripts that fetch and prepare data to train a [
 
 the data used for the training is an aggregation of three [UD](https://universaldependencies.org/) datasets and makes some minor changes to these datasets.
 
-in the datasets i used, the word _du_ is splitted into its logical component _de_ and _le_. a text like _on parle du ciel_ becomes _on parle de le ciel_ in the `.conllu` files. but in texts i analyse with the __parser__ i want to train, _du_ isn't splitted at all, so i need to unsplit it. thus the following:
+in the datasets i used, the word _du_ is splitted into its logical component _de_ and _le_. a text like _on parle du ciel_ becomes _on parle de le ciel_ in the `.conllu` files. but in the texts i have to analyze, _du_ isn't splitted at all, so i need to unsplit it. thus the following:
 
 ```conllu
 11-12	du	...	_	_	_	_
