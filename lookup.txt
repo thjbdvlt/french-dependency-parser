@@ -20,3 +20,4 @@ case:nmod case:det
 compound:det case:det
 dep:det case:det
 iobj:agent iobj
+csubj:pass csubj

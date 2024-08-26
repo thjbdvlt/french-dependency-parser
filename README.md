@@ -1,17 +1,22 @@
-de quoi s'agit-il?
-d'un _parser_, d'un _syntactic dependencies parser_.
-un modèle que je vais entraîner avec spacy en utilisant mes vectors.
-pour pouvoir l'utiliser avec le reste de mon modèle.
+*__[syntactic dependencies](https://universaldependencies.org/u/dep/) [parser](https://spacy.io/api/dependencyparser)__* for french with [spacy](https://spacy.io/api/).
 
-ne PAS entraîner les morphologies, parce que par exemple pas de `Number[psor]` pour "ses", "leur", etc., donc moins d'informations sur les pronoms que les données que j'ai entraînées.
+this repository is comprised of scripts that fetch and prepare data to train a __dependency parser__ with [spacy](https://spacy.io/api/) for the french language, along with a configuration file and script to train it. the __model__ itself is available under __releases__.
 
-il faut que je modifie un peu les corpus.
-parce que surtout il y a ça:
+the data used for the training is an aggregation of three [UD](https://universaldependencies.org/) datasets and makes some minor changes to these datasets.
+
+
+the following:
 
 ```conllu
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	ExtPos=ADV	19	discourse	_	Idiom=Yes
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	InIdiom=Yes
+11	de	de	ADP	_	...	19	case	_	_
+12	le	le	DET	_	...	11	det	_	_
 ```
 
-or, les textes ne se présentent pas sous cette forme...
+is transformed into:
+
+```conllu
+11	de	de	ADP	_	...	19	case:det	_	_
+```
+
+some labels are replaced by others, and sentences containing certain labels (such as `dep` which indicates than the parsing failed) are removed. for a list of replaced or removed labels, refer the file [lookup.txt](./lookup.txt).
