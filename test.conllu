@@ -81,7 +81,7 @@
 14	savais	_	_	_	_	5	conj	_	_
 15	pas	_	_	_	_	14	advmod	_	_
 16	_	_	_	_	_	15	_	_	_
-17	du	_	_	_	_	16	advmod:fixed	_	_
+17	du	_	_	_	_	16	case:det	_	_
 18	tout	_	_	_	_	16	fixed	_	_
 19	quoi	_	_	_	_	20	obj	_	_
 20	faire	_	_	_	_	14	xcomp	_	_
@@ -592,20 +592,6 @@
 17	voilà	_	_	_	_	14	conj	_	_
 18	.	_	_	_	_	7	punct	_	_
 
-# sent_id = ParisStories_2019_vacancesEte_12
-# text = euh donc voilà c'était dans les Charentes Maritimes.
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	euh	_	_	_	_	5	discourse	_	_
-2	donc	_	_	_	_	5	cc	_	_
-3	voilà	_	_	_	_	5	discourse	_	_
-4	c'	_	_	_	_	5	nsubj	_	_
-5	était	_	_	_	_	0	root	_	_
-6	dans	_	_	_	_	8	case	_	_
-7	les	_	_	_	_	8	det	_	_
-8	Charentes	_	_	_	_	5	xcomp	_	_
-9	Maritimes	_	_	_	_	8	compound	_	_
-10	.	_	_	_	_	5	punct	_	_
-
 # sent_id = ParisStories_2019_vacancesEte_13
 # text = euh me demande pas pourquoi il avait une exposition là-bas, c'est comme ça.
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
@@ -747,20 +733,6 @@
 10	en	_	_	_	_	11	case	_	_
 11	train	_	_	_	_	6	obl:mod	_	_
 12	,	_	_	_	_	6	punct	_	_
-
-# sent_id = ParisStories_2019_vacancesEte_23
-# text = euh qu'est-ce qu'on a fait bah,
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.d6eb01m0/20e29dd6054596203ead9ba4968c60d9c206aee3
-1	euh	_	_	_	_	3	discourse	_	_
-2	qu'	_	_	_	_	3	xcomp	_	_
-3	est	_	_	_	_	0	root	_	_
-4	-ce	_	_	_	_	3	expl:subj	_	_
-5	qu'	_	_	_	_	8	dep:comp	_	_
-6	on	_	_	_	_	8	nsubj	_	_
-7	a	_	_	_	_	8	aux:tense	_	_
-8	fait	_	_	_	_	3	advcl:cleft	_	_
-9	bah	_	_	_	_	3	discourse	_	_
-10	,	_	_	_	_	3	punct	_	_
 
 # sent_id = ParisStories_2019_vacancesEte_24
 # text = euh j'ai gagné à le total quinze euros.
@@ -1458,6 +1430,31 @@
 16	des	_	_	_	_	17	case:det	_	_
 17	cousins	_	_	_	_	14	nmod	_	_
 18	.	_	_	_	_	6	punct	_	_
+
+# sent_id = ParisStories_2020_histoireHorreur_2
+# text = mais pff c'était trop compliqué, il fallait se enfin, au niveau des du tournage.
+# sound_url = https://api.nakala.fr/data/10.34847/nkl.fef0h348/b2ebab82f1383c9acc34cbf98e9fc579c2251ff7
+1	mais	_	_	_	_	6	cc	_	_
+2	pff	_	_	_	_	6	discourse	_	_
+3	c'	_	_	_	_	6	nsubj	_	_
+4	était	_	_	_	_	6	cop	_	_
+5	trop	_	_	_	_	6	advmod	_	_
+6	compliqué	_	_	_	_	0	root	_	_
+7	,	_	_	_	_	15	punct	_	_
+8	il	_	_	_	_	9	expl:subj	_	_
+9	fallait	_	_	_	_	15	parataxis	_	_
+10	se	_	_	_	_	9	obj	_	_
+11	enfin	_	_	_	_	10	discourse	_	_
+12	,	_	_	_	_	15	punct	_	_
+13	_	_	_	_	_	15	_	_	_
+14	au	_	_	_	_	15	case:det	_	_
+15	niveau	_	_	_	_	6	obl:mod	_	_
+16	_	_	_	_	_	20	_	_	_
+17	des	_	_	_	_	16	case:det	_	_
+18	_	_	_	_	_	20	_	_	_
+19	du	_	_	_	_	20	case:det	_	_
+20	tournage	_	_	_	_	15	nmod	_	_
+21	.	_	_	_	_	6	punct	_	_
 
 # sent_id = ParisStories_2020_histoireHorreur_3
 # text = du coup on est parti pour faire euh, un film d'horreur.
@@ -2200,7 +2197,7 @@
 5	adolescence	_	_	_	_	2	obj	_	_
 6	,	_	_	_	_	12	punct	_	_
 7	ah	_	_	_	_	12	discourse	_	_
-8	j'	_	_	_	_	12	nsubj:caus	_	_
+8	j'	_	_	_	_	12	nsubj	_	_
 9	en	_	_	_	_	12	iobj	_	_
 10	ai	_	_	_	_	12	aux:tense	_	_
 11	fait	_	_	_	_	12	aux:caus	_	_
@@ -2631,7 +2628,7 @@
 6	jour	_	_	_	_	15	obl:mod	_	_
 7	,	_	_	_	_	6	punct	_	_
 8	on	_	_	_	_	9	nsubj	_	_
-9	sait	_	_	_	_	6	parataxis:parenth	_	_
+9	sait	_	_	_	_	6	parataxis	_	_
 10	pas	_	_	_	_	9	advmod	_	_
 11	pourquoi	_	_	_	_	9	obj	_	_
 12	,	_	_	_	_	6	punct	_	_
@@ -3383,19 +3380,6 @@
 2	,	_	_	_	_	1	punct	_	_
 3	ouais	_	_	_	_	0	root	_	_
 4	.	_	_	_	_	3	punct	_	_
-
-# sent_id = ParisStories_2022_12_anniversairePetitChat__16
-# sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/2ff800ab8f9261eaee3d77272a44a911f8b955bf
-# speaker = L1
-# text = puis là, plein de bébé chats.
-1	puis	_	_	_	_	4	cc	_	_
-2	là	_	_	_	_	4	advmod	_	_
-3	,	_	_	_	_	2	punct	_	_
-4	plein	_	_	_	_	0	root	_	_
-5	de	_	_	_	_	6	case	_	_
-6	bébé	_	_	_	_	4	obl:arg	_	_
-7	chats	_	_	_	_	6	compound	_	_
-8	.	_	_	_	_	4	punct	_	_
 
 # sent_id = ParisStories_2022_12_anniversairePetitChat__17
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.bf05evl1/2ff800ab8f9261eaee3d77272a44a911f8b955bf
@@ -6841,7 +6825,7 @@
 11	nous	_	_	_	_	20	dislocated	_	_
 12	,	_	_	_	_	11	punct	_	_
 13	je	_	_	_	_	14	nsubj	_	_
-14	sais	_	_	_	_	20	parataxis:parenth	_	_
+14	sais	_	_	_	_	20	parataxis	_	_
 15	pas	_	_	_	_	14	advmod	_	_
 16	pourquoi	_	_	_	_	14	obj	_	_
 17	,	_	_	_	_	14	punct	_	_
@@ -9114,28 +9098,6 @@
 24	tissu	_	_	_	_	21	nmod	_	_
 25	.	_	_	_	_	4	punct	_	_
 
-# macrosyntax = ne contenant aucun détergent < elle ne laisse aucun résidu de substance allergène sur les vêtements //
-# sent_id = Rhap_D2011-68
-# speaker = L4
-# text = ne contenant aucun détergent, elle ne laisse aucun résidu de substance allergène sur les vêtements.
-1	ne	_	_	_	_	2	advmod	_	_
-2	contenant	_	_	_	_	8	advcl	_	_
-3	aucun	_	_	_	_	4	det	_	_
-4	détergent	_	_	_	_	2	obj	_	_
-5	,	_	_	_	_	2	punct	_	_
-6	elle	_	_	_	_	8	nsubj	_	_
-7	ne	_	_	_	_	8	advmod	_	_
-8	laisse	_	_	_	_	0	root	_	_
-9	aucun	_	_	_	_	10	det	_	_
-10	résidu	_	_	_	_	8	obj	_	_
-11	de	_	_	_	_	12	case	_	_
-12	substance	_	_	_	_	10	nmod	_	_
-13	allergène	_	_	_	_	12	compound	_	_
-14	sur	_	_	_	_	16	case	_	_
-15	les	_	_	_	_	16	det	_	_
-16	vêtements	_	_	_	_	8	obl:mod	_	_
-17	.	_	_	_	_	8	punct	_	_
-
 # macrosyntax = ce qui écarte tout risque { d'irritation | ^ou d'allergie } //
 # sent_id = Rhap_D2011-69
 # speaker = L4
@@ -9642,15 +9604,6 @@
 2	Magalie	_	_	_	_	1	vocative	_	_
 3	.	_	_	_	_	1	punct	_	_
 
-# macrosyntax = $L5 merci à vous -$ //
-# sent_id = Rhap_D2011-100
-# speaker = L5
-# text = merci à vous.
-1	merci	_	_	_	_	0	root	_	_
-2	à	_	_	_	_	3	case	_	_
-3	vous	_	_	_	_	1	obl	_	_
-4	.	_	_	_	_	1	punct	_	_
-
 # macrosyntax = $L1 ^et maintenant <+ effectivement < la boule magique < vous n'utiliserez plus que cela //
 # sent_id = Rhap_D2011-101
 # speaker = L1
@@ -9688,27 +9641,6 @@
 10	ce	_	_	_	_	11	det	_	_
 11	générique	_	_	_	_	4	obl:mod	_	_
 12	.	_	_	_	_	4	punct	_	_
-
-# macrosyntax = mais quand même celui-là cent mille exemplaires en quatre semaines c'est absolument fabuleux //
-# sent_id = Rhap_D2010-3
-# speaker = L1
-# text = mais quand même celui-là cent mille exemplaires en quatre semaines c'est absolument fabuleux.
-1	mais	_	_	_	_	15	cc	_	_
-2	quand	_	_	_	_	15	advmod	_	_
-3	même	_	_	_	_	2	fixed	_	_
-4	celui	_	_	_	_	15	dislocated	_	_
-5	-là	_	_	_	_	4	advmod	_	_
-6	cent	_	_	_	_	8	nummod	_	_
-7	mille	_	_	_	_	6	flat	_	_
-8	exemplaires	_	_	_	_	15	dislocated	_	_
-9	en	_	_	_	_	11	case	_	_
-10	quatre	_	_	_	_	11	nummod	_	_
-11	semaines	_	_	_	_	8	nmod	_	_
-12	c'	_	_	_	_	15	nsubj	_	_
-13	est	_	_	_	_	15	cop	_	_
-14	absolument	_	_	_	_	15	advmod	_	_
-15	fabuleux	_	_	_	_	0	root	_	_
-16	.	_	_	_	_	15	punct	_	_
 
 # macrosyntax = non //
 # sent_id = Rhap_D2010-5
@@ -9908,18 +9840,6 @@
 # text = oui.
 1	oui	_	_	_	_	0	root	_	_
 2	.	_	_	_	_	1	punct	_	_
-
-# macrosyntax = alors < c'est vrai que ESPERLUETTE //
-# sent_id = Rhap_D2010-19
-# speaker = L1
-# text = alors, c'est vrai que…
-1	alors	_	_	_	_	5	advmod	_	_
-2	,	_	_	_	_	1	punct	_	_
-3	c'	_	_	_	_	5	expl:subj	_	_
-4	est	_	_	_	_	5	cop	_	_
-5	vrai	_	_	_	_	0	root	_	_
-6	que	_	_	_	_	5	dep:comp	_	_
-7	…	_	_	_	_	5	punct	_	_
 
 # macrosyntax = alors < les critiques qui vous avaient boudée ( d'ailleurs ) un peu depuis quelques années //
 # sent_id = Rhap_D2010-20
@@ -10527,21 +10447,6 @@
 1	rose	_	_	_	_	0	root	_	_
 2	.	_	_	_	_	1	punct	_	_
 
-# macrosyntax = $L1 {| couleur bois de rose } au large ruban noir //
-# sent_id = Rhap_D2010-71septies
-# speaker = L1
-# text = couleur bois de rose au large ruban noir.
-1	couleur	_	_	_	_	0	root	_	_
-2	bois	_	_	_	_	1	compound	_	_
-3	de	_	_	_	_	4	case	_	_
-4	rose	_	_	_	_	2	nmod	_	_
-5	_	_	_	_	_	8	_	_	_
-6	au	_	_	_	_	8	case:det	_	_
-7	large	_	_	_	_	8	amod	_	_
-8	ruban	_	_	_	_	1	orphan	_	_
-9	noir	_	_	_	_	8	amod	_	_
-10	.	_	_	_	_	1	punct	_	_
-
 # macrosyntax = $L2 ouais //
 # sent_id = Rhap_D2010-71octies
 # speaker = L2
@@ -11141,46 +11046,6 @@
 17	sûr	_	_	_	_	16	fixed	_	_
 18	.	_	_	_	_	5	punct	_	_
 
-# macrosyntax = $L1 { deux préludes de Karol Szymanowski extraits de son opus un de mille neuf cents | { le sixième | ^et le septième } } { interprétés par "euh" Maria Yudina | enregistrés en mille neuf cent cinquante-six } //
-# sent_id = Rhap_D2012-1
-# speaker = L1
-# text = deux préludes de Karol Szymanowski extraits de son opus un de mille neuf cents, le sixième et le septième interprétés par, euh, Maria Yudina, enregistrés en mille neuf cent cinquante-six.
-1	deux	_	_	_	_	2	nummod	_	_
-2	préludes	_	_	_	_	0	root	_	_
-3	de	_	_	_	_	4	case	_	_
-4	Karol	_	_	_	_	2	nmod	_	_
-5	Szymanowski	_	_	_	_	4	flat:name	_	_
-6	extraits	_	_	_	_	2	acl	_	_
-7	de	_	_	_	_	9	case	_	_
-8	son	_	_	_	_	9	det	_	_
-9	opus	_	_	_	_	6	obl:mod	_	_
-10	un	_	_	_	_	9	nmod:appos	_	_
-11	de	_	_	_	_	12	case	_	_
-12	mille	_	_	_	_	9	nmod	_	_
-13	neuf	_	_	_	_	12	flat	_	_
-14	cents	_	_	_	_	12	flat	_	_
-15	,	_	_	_	_	17	punct	_	_
-16	le	_	_	_	_	17	det	_	_
-17	sixième	_	_	_	_	2	appos	_	_
-18	et	_	_	_	_	20	cc	_	_
-19	le	_	_	_	_	20	det	_	_
-20	septième	_	_	_	_	17	conj	_	_
-21	interprétés	_	_	_	_	20	acl	_	_
-22	par	_	_	_	_	26	case	_	_
-23	,	_	_	_	_	26	punct	_	_
-24	euh	_	_	_	_	26	discourse	_	_
-25	,	_	_	_	_	24	punct	_	_
-26	Maria	_	_	_	_	21	obl:arg	_	_
-27	Yudina	_	_	_	_	26	flat:name	_	_
-28	,	_	_	_	_	29	punct	_	_
-29	enregistrés	_	_	_	_	21	conj	_	_
-30	en	_	_	_	_	31	case	_	_
-31	mille	_	_	_	_	29	obl:mod	_	_
-32	neuf	_	_	_	_	31	flat	_	_
-33	cent	_	_	_	_	31	flat	_	_
-34	cinquante-six	_	_	_	_	31	flat	_	_
-35	.	_	_	_	_	2	punct	_	_
-
 # macrosyntax = vous n'avez pas choisi Yudina "euh" par hasard > Didier Von Moere //
 # sent_id = Rhap_D2012-2
 # speaker = L1
@@ -11307,23 +11172,9 @@
 7	ça	_	_	_	_	5	obj	_	_
 8	chopinien	_	_	_	_	5	xcomp	_	_
 9	_	_	_	_	_	8	_	_	_
-10	du	_	_	_	_	9	advmod:fixed	_	_
+10	du	_	_	_	_	9	case:det	_	_
 11	tout	_	_	_	_	9	fixed	_	_
 12	.	_	_	_	_	5	punct	_	_
-
-# macrosyntax = je trouve ça plutôt dans une mouvance wagnérienne //
-# sent_id = Rhap_D2012-9
-# speaker = L1
-# text = je trouve ça plutôt dans une mouvance wagnérienne.
-1	je	_	_	_	_	2	nsubj	_	_
-2	trouve	_	_	_	_	0	root	_	_
-3	ça	_	_	_	_	2	obj	_	_
-4	plutôt	_	_	_	_	2	advmod	_	_
-5	dans	_	_	_	_	7	case	_	_
-6	une	_	_	_	_	7	det	_	_
-7	mouvance	_	_	_	_	2	obl:arg	_	_
-8	wagnérienne	_	_	_	_	7	compound	_	_
-9	.	_	_	_	_	2	punct	_	_
 
 # macrosyntax = $L2 "ben" le premier qu'on a entendu est très tristanien //
 # sent_id = Rhap_D2012-10
@@ -11506,45 +11357,6 @@
 35	articulation	_	_	_	_	32	nmod	_	_
 36	.	_	_	_	_	6	punct	_	_
 
-# macrosyntax = la lavallière de soie noire de la photographie de Berlin de mille neuf cent six avait fait place à une cravate parfaitement nouée de couleur idéalement assortie avec le ton de sa pèlerine //
-# sent_id = Rhap_D2012-24
-# speaker = L1
-# text = la lavallière de soie noire de la photographie de Berlin de mille neuf cent six avait fait place à une cravate parfaitement nouée de couleur idéalement assortie avec le ton de sa pèlerine.
-1	la	_	_	_	_	2	det	_	_
-2	lavallière	_	_	_	_	17	nsubj	_	_
-3	de	_	_	_	_	4	case	_	_
-4	soie	_	_	_	_	2	nmod	_	_
-5	noire	_	_	_	_	4	amod	_	_
-6	de	_	_	_	_	8	case	_	_
-7	la	_	_	_	_	8	det	_	_
-8	photographie	_	_	_	_	2	nmod	_	_
-9	de	_	_	_	_	10	case	_	_
-10	Berlin	_	_	_	_	8	nmod	_	_
-11	de	_	_	_	_	12	case	_	_
-12	mille	_	_	_	_	8	nmod	_	_
-13	neuf	_	_	_	_	12	flat	_	_
-14	cent	_	_	_	_	12	flat	_	_
-15	six	_	_	_	_	12	flat	_	_
-16	avait	_	_	_	_	17	aux:tense	_	_
-17	fait	_	_	_	_	0	root	_	_
-18	place	_	_	_	_	17	obj:lvc	_	_
-19	à	_	_	_	_	21	case	_	_
-20	une	_	_	_	_	21	det	_	_
-21	cravate	_	_	_	_	17	obl:arg	_	_
-22	parfaitement	_	_	_	_	23	advmod	_	_
-23	nouée	_	_	_	_	21	acl	_	_
-24	de	_	_	_	_	25	case	_	_
-25	couleur	_	_	_	_	21	nmod	_	_
-26	idéalement	_	_	_	_	27	advmod	_	_
-27	assortie	_	_	_	_	25	acl	_	_
-28	avec	_	_	_	_	30	case	_	_
-29	le	_	_	_	_	30	det	_	_
-30	ton	_	_	_	_	27	obl:arg	_	_
-31	de	_	_	_	_	33	case	_	_
-32	sa	_	_	_	_	33	det	_	_
-33	pèlerine	_	_	_	_	30	nmod	_	_
-34	.	_	_	_	_	17	punct	_	_
-
 # macrosyntax = toute l'élégance de Szymanoski était du meilleur genre //
 # sent_id = Rhap_D2012-25
 # speaker = L1
@@ -11631,35 +11443,6 @@
 11	très	_	_	_	_	12	advmod	_	_
 12	élégant	_	_	_	_	10	amod	_	_
 13	.	_	_	_	_	10	punct	_	_
-
-# macrosyntax = il avait { un côté aristocrate | un côté dandy | un côté esthète } qu'il gardera jusqu'à la fin de sa vie //
-# sent_id = Rhap_D2012-29
-# speaker = L2
-# text = il avait un côté aristocrate, un côté dandy, un côté esthète qu'il gardera jusqu'à la fin de sa vie.
-1	il	_	_	_	_	2	nsubj	_	_
-2	avait	_	_	_	_	0	root	_	_
-3	un	_	_	_	_	4	det	_	_
-4	côté	_	_	_	_	2	obj	_	_
-5	aristocrate	_	_	_	_	4	amod	_	_
-6	,	_	_	_	_	8	punct	_	_
-7	un	_	_	_	_	8	det	_	_
-8	côté	_	_	_	_	4	appos	_	_
-9	dandy	_	_	_	_	8	compound	_	_
-10	,	_	_	_	_	12	punct	_	_
-11	un	_	_	_	_	12	det	_	_
-12	côté	_	_	_	_	4	appos	_	_
-13	esthète	_	_	_	_	12	amod	_	_
-14	qu'	_	_	_	_	16	obj	_	_
-15	il	_	_	_	_	16	nsubj	_	_
-16	gardera	_	_	_	_	12	acl:relcl	_	_
-17	jusqu'	_	_	_	_	20	case	_	_
-18	à	_	_	_	_	20	case	_	_
-19	la	_	_	_	_	20	det	_	_
-20	fin	_	_	_	_	16	obl:mod	_	_
-21	de	_	_	_	_	23	case	_	_
-22	sa	_	_	_	_	23	det	_	_
-23	vie	_	_	_	_	20	nmod	_	_
-24	.	_	_	_	_	2	punct	_	_
 
 # macrosyntax = ^et il était très attaché à la beauté des choses //
 # sent_id = Rhap_D2012-30
@@ -12076,15 +11859,6 @@
 20	Kord	_	_	_	_	19	flat:name	_	_
 21	.	_	_	_	_	1	punct	_	_
 
-# macrosyntax = $L1 bonsoir à tous //
-# sent_id = Rhap_D2008-1
-# speaker = L1
-# text = bonsoir à tous.
-1	bonsoir	_	_	_	_	0	root	_	_
-2	à	_	_	_	_	3	case	_	_
-3	tous	_	_	_	_	1	obl	_	_
-4	.	_	_	_	_	1	punct	_	_
-
 # macrosyntax = nous consacrerons la dernière partie de cette émission à vos questions SMS //
 # sent_id = Rhap_D2008-2
 # speaker = L1
@@ -12103,26 +11877,6 @@
 12	SMS	_	_	_	_	11	nmod:appos	_	_
 13	.	_	_	_	_	2	punct	_	_
 
-# macrosyntax = alors < où en est-on vraiment du côté de la grippe A H un N un //
-# sent_id = Rhap_D2008-3
-# speaker = L1
-# text = alors, où en est-on vraiment du côté de la grippe AH1N1 ?
-1	alors	_	_	_	_	5	discourse	_	_
-2	,	_	_	_	_	1	punct	_	_
-3	où	_	_	_	_	5	iobj	_	_
-4	en	_	_	_	_	5	dep:comp	_	_
-5	est	_	_	_	_	0	root	_	_
-6	-on	_	_	_	_	5	nsubj	_	_
-7	vraiment	_	_	_	_	5	advmod	_	_
-8	_	_	_	_	_	10	_	_	_
-9	du	_	_	_	_	10	case:det	_	_
-10	côté	_	_	_	_	5	obl:mod	_	_
-11	de	_	_	_	_	13	case	_	_
-12	la	_	_	_	_	13	det	_	_
-13	grippe	_	_	_	_	10	nmod	_	_
-14	AH1N1	_	_	_	_	13	nmod:appos	_	_
-15	?	_	_	_	_	5	punct	_	_
-
 # macrosyntax = la tendance dans les médias est plutôt "vous l'avez vu" du côté d'un léger assoupissement //
 # sent_id = Rhap_D2008-4
 # speaker = L1
@@ -12138,7 +11892,7 @@
 9	vous	_	_	_	_	12	nsubj	_	_
 10	l'	_	_	_	_	12	obj	_	_
 11	avez	_	_	_	_	12	aux:tense	_	_
-12	vu	_	_	_	_	16	parataxis:parenth	_	_
+12	vu	_	_	_	_	16	parataxis	_	_
 13	,	_	_	_	_	12	punct	_	_
 14	_	_	_	_	_	16	_	_	_
 15	du	_	_	_	_	16	case:det	_	_
@@ -12227,21 +11981,6 @@
 14	chaque	_	_	_	_	15	det	_	_
 15	soir	_	_	_	_	10	obl:mod	_	_
 16	.	_	_	_	_	2	punct	_	_
-
-# macrosyntax = Antoine Flahault est { épidémiologiste | spécialiste de la grippe } //
-# sent_id = Rhap_D2008-10
-# speaker = L1
-# text = Antoine Flahault est épidémiologiste, spécialiste de la grippe.
-1	Antoine	_	_	_	_	4	nsubj	_	_
-2	Flahault	_	_	_	_	1	flat:name	_	_
-3	est	_	_	_	_	4	cop	_	_
-4	épidémiologiste	_	_	_	_	0	root	_	_
-5	,	_	_	_	_	6	punct	_	_
-6	spécialiste	_	_	_	_	4	compound	_	_
-7	de	_	_	_	_	9	case	_	_
-8	la	_	_	_	_	9	det	_	_
-9	grippe	_	_	_	_	6	nmod	_	_
-10	.	_	_	_	_	4	punct	_	_
 
 # macrosyntax = vous êtes directeur de l'École des hautes études en santé publique à Rennes //
 # sent_id = Rhap_D2008-11
@@ -12435,33 +12174,6 @@
 24	les	_	_	_	_	25	det	_	_
 25	Hauts-de-Seine	_	_	_	_	22	nmod	_	_
 26	.	_	_	_	_	4	punct	_	_
-
-# macrosyntax = vous présidez ( par ailleurs ) la commission [ maladies transmissibles ] "euh" du Haut Conseil de la santé publique //
-# sent_id = Rhap_D2008-19
-# speaker = L1
-# text = vous présidez, par ailleurs, la commission maladies transmissibles, euh, du Haut Conseil de la santé publique.
-1	vous	_	_	_	_	2	nsubj	_	_
-2	présidez	_	_	_	_	0	root	_	_
-3	,	_	_	_	_	4	punct	_	_
-4	par	_	_	_	_	2	dislocated	_	_
-5	ailleurs	_	_	_	_	4	fixed	_	_
-6	,	_	_	_	_	8	punct	_	_
-7	la	_	_	_	_	8	det	_	_
-8	commission	_	_	_	_	2	obj	_	_
-9	maladies	_	_	_	_	8	compound	_	_
-10	transmissibles	_	_	_	_	9	amod	_	_
-11	,	_	_	_	_	12	punct	_	_
-12	euh	_	_	_	_	10	discourse	_	_
-13	,	_	_	_	_	17	punct	_	_
-14	_	_	_	_	_	17	_	_	_
-15	du	_	_	_	_	17	case:det	_	_
-16	Haut	_	_	_	_	17	amod	_	_
-17	Conseil	_	_	_	_	8	nmod	_	_
-18	de	_	_	_	_	20	case	_	_
-19	la	_	_	_	_	20	det	_	_
-20	santé	_	_	_	_	17	nmod	_	_
-21	publique	_	_	_	_	20	amod	_	_
-22	.	_	_	_	_	2	punct	_	_
 
 # macrosyntax = ^enfin Michel Setbon est { sociologue | spécialiste des crises sanitaires } //
 # sent_id = Rhap_D2008-20
@@ -13023,55 +12735,6 @@
 3	raison	_	_	_	_	2	obj:lvc	_	_
 4	.	_	_	_	_	2	punct	_	_
 
-# macrosyntax = une des estimations inquiétantes < c'est celle de mille neuf cent dix-huit //
-# sent_id = Rhap_D2008-67
-# speaker = L2
-# text = une des estimations inquiétantes, c'est celle de mille neuf cent dix-huit.
-1	une	_	_	_	_	9	dislocated	_	_
-2	_	_	_	_	_	4	_	_	_
-3	des	_	_	_	_	4	case:det	_	_
-4	estimations	_	_	_	_	1	obl:arg	_	_
-5	inquiétantes	_	_	_	_	4	amod	_	_
-6	,	_	_	_	_	1	punct	_	_
-7	c'	_	_	_	_	9	nsubj	_	_
-8	est	_	_	_	_	9	cop	_	_
-9	celle	_	_	_	_	0	root	_	_
-10	de	_	_	_	_	11	case	_	_
-11	mille	_	_	_	_	9	nmod	_	_
-12	neuf	_	_	_	_	11	flat	_	_
-13	cent	_	_	_	_	11	flat	_	_
-14	dix-huit	_	_	_	_	11	flat	_	_
-15	.	_	_	_	_	9	punct	_	_
-
-# macrosyntax = il y a eu en mille neuf cent dix-huit sur l'ensemble de la planète "on dit" quarante millions de décès //
-# sent_id = Rhap_D2008-68
-# speaker = L2
-# text = il y a eu en mille neuf cent dix-huit sur l'ensemble de la planète, on dit, quarante millions de décès.
-1	il	_	_	_	_	4	expl:subj	_	_
-2	y	_	_	_	_	4	iobj	_	_
-3	a	_	_	_	_	4	aux:tense	_	_
-4	eu	_	_	_	_	0	root	_	_
-5	en	_	_	_	_	6	case	_	_
-6	mille	_	_	_	_	4	obl:mod	_	_
-7	neuf	_	_	_	_	6	flat	_	_
-8	cent	_	_	_	_	6	flat	_	_
-9	dix-huit	_	_	_	_	6	flat	_	_
-10	sur	_	_	_	_	12	case	_	_
-11	l'	_	_	_	_	12	det	_	_
-12	ensemble	_	_	_	_	4	obl:mod	_	_
-13	de	_	_	_	_	15	case	_	_
-14	la	_	_	_	_	15	det	_	_
-15	planète	_	_	_	_	12	nmod	_	_
-16	,	_	_	_	_	18	punct	_	_
-17	on	_	_	_	_	18	nsubj	_	_
-18	dit	_	_	_	_	15	discourse	_	_
-19	,	_	_	_	_	21	punct	_	_
-20	quarante	_	_	_	_	21	nummod	_	_
-21	millions	_	_	_	_	4	obj	_	_
-22	de	_	_	_	_	23	case	_	_
-23	décès	_	_	_	_	21	nmod	_	_
-24	.	_	_	_	_	4	punct	_	_
-
 # macrosyntax = ^c'^est-^à-^dire une mortalité effroyable //
 # sent_id = Rhap_D2008-69
 # speaker = L2
@@ -13106,46 +12769,6 @@
 10	bien	_	_	_	_	2	advmod	_	_
 11	entendu	_	_	_	_	10	fixed	_	_
 12	.	_	_	_	_	2	punct	_	_
-
-# macrosyntax = on ne savait pas ce qu'était un virus en mille neuf cent dix-huit //=
-# sent_id = Rhap_D2008-75
-# speaker = L2
-# text = on ne savait pas ce qu'était un virus en mille neuf cent dix-huit.
-1	on	_	_	_	_	3	nsubj	_	_
-2	ne	_	_	_	_	3	advmod	_	_
-3	savait	_	_	_	_	0	root	_	_
-4	pas	_	_	_	_	3	advmod	_	_
-5	ce	_	_	_	_	3	obj	_	_
-6	qu'	_	_	_	_	5	acl:relcl	_	_
-7	était	_	_	_	_	6	cop	_	_
-8	un	_	_	_	_	9	det	_	_
-9	virus	_	_	_	_	6	nsubj	_	_
-10	en	_	_	_	_	11	case	_	_
-11	mille	_	_	_	_	3	obl:mod	_	_
-12	neuf	_	_	_	_	11	flat	_	_
-13	cent	_	_	_	_	11	flat	_	_
-14	dix-huit	_	_	_	_	11	flat	_	_
-15	.	_	_	_	_	3	punct	_	_
-
-# macrosyntax = on est au Moyen Âge de la santé en mille neuf cent dix-huit //
-# sent_id = Rhap_D2008-76
-# speaker = L2
-# text = on est au Moyen Âge de la santé en mille neuf cent dix-huit.
-1	on	_	_	_	_	2	nsubj	_	_
-2	est	_	_	_	_	0	root	_	_
-3	_	_	_	_	_	6	_	_	_
-4	au	_	_	_	_	6	case:det	_	_
-5	Moyen	_	_	_	_	6	amod	_	_
-6	Âge	_	_	_	_	2	obl:arg	_	_
-7	de	_	_	_	_	9	case	_	_
-8	la	_	_	_	_	9	det	_	_
-9	santé	_	_	_	_	6	nmod	_	_
-10	en	_	_	_	_	11	case	_	_
-11	mille	_	_	_	_	2	obl:mod	_	_
-12	neuf	_	_	_	_	11	flat	_	_
-13	cent	_	_	_	_	11	flat	_	_
-14	dix-huit	_	_	_	_	11	flat	_	_
-15	.	_	_	_	_	2	punct	_	_
 
 # macrosyntax = il y a pas de vaccins //
 # sent_id = Rhap_D2008-78
@@ -13244,6 +12867,48 @@
 26	,	_	_	_	_	27	punct	_	_
 27	voilà	_	_	_	_	25	discourse	_	_
 28	.	_	_	_	_	6	punct	_	_
+
+# macrosyntax = est-ce que vous vous êtes fixé aussi un cadre "si je puis dire" dans la durée { { du | du | du } scénario | ^et donc du film } > en quelque sorte //
+# sent_id = Rhap_D2008-86
+# speaker = L1
+# text = est-ce que vous vous êtes fixé aussi un cadre, si je puis dire, dans la durée du, du, du scénario et donc du film en quelque sorte ?
+1	est	_	_	_	_	7	cop	_	_
+2	-ce	_	_	_	_	7	expl:subj	_	_
+3	que	_	_	_	_	7	mark	_	_
+4	vous	_	_	_	_	7	nsubj	_	_
+5	vous	_	_	_	_	7	obj	_	_
+6	êtes	_	_	_	_	7	aux:tense	_	_
+7	fixé	_	_	_	_	0	root	_	_
+8	aussi	_	_	_	_	7	advmod	_	_
+9	un	_	_	_	_	10	det	_	_
+10	cadre	_	_	_	_	7	obj	_	_
+11	,	_	_	_	_	14	punct	_	_
+12	si	_	_	_	_	14	mark	_	_
+13	je	_	_	_	_	14	nsubj	_	_
+14	puis	_	_	_	_	7	discourse	_	_
+15	dire	_	_	_	_	14	xcomp	_	_
+16	,	_	_	_	_	19	punct	_	_
+17	dans	_	_	_	_	19	case	_	_
+18	la	_	_	_	_	19	det	_	_
+19	durée	_	_	_	_	7	obl:mod	_	_
+20	_	_	_	_	_	21	_	_	_
+21	du	_	_	_	_	28	case:det	_	_
+22	,	_	_	_	_	21	punct	_	_
+23	_	_	_	_	_	24	_	_	_
+24	du	_	_	_	_	28	case:det	_	_
+25	,	_	_	_	_	24	punct	_	_
+26	_	_	_	_	_	28	_	_	_
+27	du	_	_	_	_	28	case:det	_	_
+28	scénario	_	_	_	_	19	nmod	_	_
+29	et	_	_	_	_	33	cc	_	_
+30	donc	_	_	_	_	33	advmod	_	_
+31	_	_	_	_	_	33	_	_	_
+32	du	_	_	_	_	33	case:det	_	_
+33	film	_	_	_	_	21	conj	_	_
+34	en	_	_	_	_	36	case	_	_
+35	quelque	_	_	_	_	36	det	_	_
+36	sorte	_	_	_	_	7	obl:mod	_	_
+37	?	_	_	_	_	7	punct	_	_
 
 # macrosyntax = elle a commencé par nous dire [ "euh" on est aux affaires // ] //=
 # sent_id = Rhap_D2008-90
@@ -13384,35 +13049,6 @@
 13	de	_	_	_	_	14	case	_	_
 14	balancier	_	_	_	_	12	nmod	_	_
 15	.	_	_	_	_	6	punct	_	_
-
-# macrosyntax = dans le cadre déjà de la grippe traditionnelle < est-ce que [ ce chiffre de trente mille < il s'applique à ça ] //
-# sent_id = Rhap_D2008-101
-# speaker = L1
-# text = dans le cadre déjà de la grippe traditionnelle, est-ce que ce chiffre de trente mille, il s'applique à ça ?
-1	dans	_	_	_	_	3	case	_	_
-2	le	_	_	_	_	3	det	_	_
-3	cadre	_	_	_	_	21	obl:mod	_	_
-4	déjà	_	_	_	_	3	advmod	_	_
-5	de	_	_	_	_	7	case	_	_
-6	la	_	_	_	_	7	det	_	_
-7	grippe	_	_	_	_	3	nmod	_	_
-8	traditionnelle	_	_	_	_	7	amod	_	_
-9	,	_	_	_	_	3	punct	_	_
-10	est	_	_	_	_	21	cop	_	_
-11	-ce	_	_	_	_	21	expl:subj	_	_
-12	que	_	_	_	_	21	mark	_	_
-13	ce	_	_	_	_	14	det	_	_
-14	chiffre	_	_	_	_	21	dislocated	_	_
-15	de	_	_	_	_	16	case	_	_
-16	trente	_	_	_	_	14	nmod	_	_
-17	mille	_	_	_	_	16	flat	_	_
-18	,	_	_	_	_	14	punct	_	_
-19	il	_	_	_	_	21	nsubj	_	_
-20	s'	_	_	_	_	21	expl:pass	_	_
-21	applique	_	_	_	_	0	root	_	_
-22	à	_	_	_	_	23	case	_	_
-23	ça	_	_	_	_	21	obl:arg	_	_
-24	?	_	_	_	_	21	punct	_	_
 
 # macrosyntax = $L2 oui //
 # sent_id = Rhap_D2008-101bis
@@ -13558,71 +13194,6 @@
 10	nous	_	_	_	_	8	nmod	_	_
 11	.	_	_	_	_	3	punct	_	_
 
-# macrosyntax = on va donc avoir nos regards braqués { sur l'hémisphère sud | ^et notamment sur les pays de la zone tempérée de l'hémisphère sud } dans les mois à venir //
-# sent_id = Rhap_D2008-114
-# speaker = L2
-# text = on va donc avoir nos regards braqués sur l'hémisphère sud et notamment sur les pays de la zone tempérée de l'hémisphère sud dans les mois à venir.
-1	on	_	_	_	_	2	nsubj	_	_
-2	va	_	_	_	_	0	root	_	_
-3	donc	_	_	_	_	2	advmod	_	_
-4	avoir	_	_	_	_	2	xcomp	_	_
-5	nos	_	_	_	_	6	det	_	_
-6	regards	_	_	_	_	4	obj	_	_
-7	braqués	_	_	_	_	6	acl	_	_
-8	sur	_	_	_	_	10	case	_	_
-9	l'	_	_	_	_	10	det	_	_
-10	hémisphère	_	_	_	_	7	obl:arg	_	_
-11	sud	_	_	_	_	10	compound	_	_
-12	et	_	_	_	_	16	cc	_	_
-13	notamment	_	_	_	_	16	advmod	_	_
-14	sur	_	_	_	_	16	case	_	_
-15	les	_	_	_	_	16	det	_	_
-16	pays	_	_	_	_	10	conj	_	_
-17	de	_	_	_	_	19	case	_	_
-18	la	_	_	_	_	19	det	_	_
-19	zone	_	_	_	_	16	nmod	_	_
-20	tempérée	_	_	_	_	19	acl	_	_
-21	de	_	_	_	_	23	case	_	_
-22	l'	_	_	_	_	23	det	_	_
-23	hémisphère	_	_	_	_	19	nmod	_	_
-24	sud	_	_	_	_	23	compound	_	_
-25	dans	_	_	_	_	27	case	_	_
-26	les	_	_	_	_	27	det	_	_
-27	mois	_	_	_	_	4	obl:mod	_	_
-28	à	_	_	_	_	29	mark	_	_
-29	venir	_	_	_	_	27	acl	_	_
-30	.	_	_	_	_	2	punct	_	_
-
-# macrosyntax = ^et ^puis après <+ si jamais ces épidémies "euh" surviennent dans l'hémisphère sud <+ on aura une chance encore plus renforcée //
-# sent_id = Rhap_D2008-115
-# speaker = L2
-# text = et puis après, si jamais ces épidémies, euh, surviennent dans l'hémisphère sud, on aura une chance encore plus renforcée.
-1	et	_	_	_	_	19	cc	_	_
-2	puis	_	_	_	_	1	fixed	_	_
-3	après	_	_	_	_	19	advmod	_	_
-4	,	_	_	_	_	3	punct	_	_
-5	si	_	_	_	_	12	mark	_	_
-6	jamais	_	_	_	_	12	advmod	_	_
-7	ces	_	_	_	_	8	det	_	_
-8	épidémies	_	_	_	_	12	nsubj	_	_
-9	,	_	_	_	_	10	punct	_	_
-10	euh	_	_	_	_	8	discourse	_	_
-11	,	_	_	_	_	8	punct	_	_
-12	surviennent	_	_	_	_	19	advcl	_	_
-13	dans	_	_	_	_	15	case	_	_
-14	l'	_	_	_	_	15	det	_	_
-15	hémisphère	_	_	_	_	12	obl:mod	_	_
-16	sud	_	_	_	_	15	compound	_	_
-17	,	_	_	_	_	12	punct	_	_
-18	on	_	_	_	_	19	nsubj	_	_
-19	aura	_	_	_	_	0	root	_	_
-20	une	_	_	_	_	21	det	_	_
-21	chance	_	_	_	_	19	obj	_	_
-22	encore	_	_	_	_	23	advmod	_	_
-23	plus	_	_	_	_	24	advmod	_	_
-24	renforcée	_	_	_	_	21	acl	_	_
-25	.	_	_	_	_	19	punct	_	_
-
 # macrosyntax = $L1 une dernière petite question avant qu'on découvre notre premier reportage //
 # sent_id = Rhap_D2008-117
 # speaker = L1
@@ -13726,16 +13297,6 @@
 8	,	_	_	_	_	9	punct	_	_
 9	euh	_	_	_	_	7	discourse	_	_
 10	?	_	_	_	_	2	punct	_	_
-
-# macrosyntax = ça fait rire cette ESPERLUETTE //
-# sent_id = Rhap_D2008-125
-# speaker = L1
-# text = ça fait rire cette…
-1	ça	_	_	_	_	3	nsubj:caus	_	_
-2	fait	_	_	_	_	3	aux:caus	_	_
-3	rire	_	_	_	_	0	root	_	_
-4	cette	_	_	_	_	3	dep:comp	_	_
-5	…	_	_	_	_	3	punct	_	_
 
 # macrosyntax = bon //
 # sent_id = Rhap_D2008-125bis
@@ -14130,7 +13691,7 @@
 # macrosyntax = il fait ( d'abord ) lever la belle-mère de Pierre //
 # sent_id = Rhap_M2003-5
 # text = il fait, d'abord, lever la belle-mère de Pierre.
-1	il	_	_	_	_	7	nsubj:caus	_	_
+1	il	_	_	_	_	7	nsubj	_	_
 2	fait	_	_	_	_	7	aux:caus	_	_
 3	,	_	_	_	_	7	punct	_	_
 4	d'	_	_	_	_	5	case	_	_
@@ -14355,33 +13916,6 @@
 11	libération	_	_	_	_	9	nmod	_	_
 12	.	_	_	_	_	2	punct	_	_
 
-# macrosyntax = plus encore < dans l'évangile d'aujourd'hui <+ Jésus s'accorde le pouvoir { de guérir | ^et de chasser les esprits mauvais } //
-# sent_id = Rhap_M2003-18
-# text = plus encore, dans l'évangile d'aujourd'hui, Jésus s'accorde le pouvoir de guérir et de chasser les esprits mauvais.
-1	plus	_	_	_	_	2	advmod	_	_
-2	encore	_	_	_	_	12	advmod	_	_
-3	,	_	_	_	_	2	punct	_	_
-4	dans	_	_	_	_	6	case	_	_
-5	l'	_	_	_	_	6	det	_	_
-6	évangile	_	_	_	_	12	obl:mod	_	_
-7	d'	_	_	_	_	8	case	_	_
-8	aujourd'hui	_	_	_	_	6	advmod	_	_
-9	,	_	_	_	_	6	punct	_	_
-10	Jésus	_	_	_	_	12	nsubj	_	_
-11	s'	_	_	_	_	12	dep:comp	_	_
-12	accorde	_	_	_	_	0	root	_	_
-13	le	_	_	_	_	14	det	_	_
-14	pouvoir	_	_	_	_	12	obj	_	_
-15	de	_	_	_	_	16	mark	_	_
-16	guérir	_	_	_	_	14	acl	_	_
-17	et	_	_	_	_	19	cc	_	_
-18	de	_	_	_	_	19	mark	_	_
-19	chasser	_	_	_	_	16	conj	_	_
-20	les	_	_	_	_	21	det	_	_
-21	esprits	_	_	_	_	19	obj	_	_
-22	mauvais	_	_	_	_	21	amod	_	_
-23	.	_	_	_	_	12	punct	_	_
-
 # macrosyntax = il guérit de son propre chef les malades //
 # sent_id = Rhap_M2003-20
 # text = il guérit de son propre chef les malades.
@@ -14446,7 +13980,7 @@
 1	sois	_	_	_	_	2	aux:pass	_	_
 2	purifié	_	_	_	_	0	root	_	_
 3	,	_	_	_	_	4	punct	_	_
-4	entend	_	_	_	_	2	parataxis:insert	_	_
+4	entend	_	_	_	_	2	parataxis	_	_
 5	-on	_	_	_	_	4	nsubj	_	_
 6	dans	_	_	_	_	8	case	_	_
 7	l'	_	_	_	_	8	det	_	_
@@ -14614,7 +14148,7 @@
 # text = vraiment, dit Job, la vie de l'homme sur terre est une corvée.
 1	vraiment	_	_	_	_	15	advmod	_	_
 2	,	_	_	_	_	3	punct	_	_
-3	dit	_	_	_	_	15	parataxis:insert	_	_
+3	dit	_	_	_	_	15	parataxis	_	_
 4	Job	_	_	_	_	3	nsubj	_	_
 5	,	_	_	_	_	3	punct	_	_
 6	la	_	_	_	_	7	det	_	_
@@ -14664,7 +14198,7 @@
 19	des	_	_	_	_	20	det	_	_
 20	mois	_	_	_	_	15	obl:mod	_	_
 21	,	_	_	_	_	22	punct	_	_
-22	dit	_	_	_	_	30	parataxis:insert	_	_
+22	dit	_	_	_	_	30	parataxis	_	_
 23	Job	_	_	_	_	22	nsubj	_	_
 24	,	_	_	_	_	22	punct	_	_
 25	je	_	_	_	_	30	nsubj	_	_
@@ -15523,7 +15057,7 @@
 21	et	_	_	_	_	24	cc	_	_
 22	c'	_	_	_	_	24	nsubj	_	_
 23	est	_	_	_	_	24	cop	_	_
-24	difficile	_	_	_	_	26	parataxis:parenth	_	_
+24	difficile	_	_	_	_	26	parataxis	_	_
 25	,	_	_	_	_	26	punct	_	_
 26	profonds	_	_	_	_	14	acl:relcl	_	_
 27	et	_	_	_	_	28	cc	_	_
@@ -16188,7 +15722,7 @@
 2	,	_	_	_	_	3	punct	_	_
 3	euh	_	_	_	_	1	discourse	_	_
 4	,	_	_	_	_	5	punct	_	_
-5	disons	_	_	_	_	1	parataxis:parenth	_	_
+5	disons	_	_	_	_	1	parataxis	_	_
 6	les	_	_	_	_	7	det	_	_
 7	mots	_	_	_	_	5	obj	_	_
 8	comme	_	_	_	_	10	mark	_	_
@@ -16227,22 +15761,6 @@
 1	oui	_	_	_	_	0	root	_	_
 2	.	_	_	_	_	1	punct	_	_
 
-# macrosyntax = $L1 vous savez ce que c'est > que d'être pauvre //=
-# sent_id = Rhap_D2001-71
-# speaker = L1
-# text = vous savez ce que c'est que d'être pauvre.
-1	vous	_	_	_	_	2	nsubj	_	_
-2	savez	_	_	_	_	0	root	_	_
-3	ce	_	_	_	_	2	obj	_	_
-4	que	_	_	_	_	3	acl:relcl	_	_
-5	c'	_	_	_	_	4	nsubj	_	_
-6	est	_	_	_	_	4	cop	_	_
-7	que	_	_	_	_	4	dep:comp	_	_
-8	d'	_	_	_	_	10	mark	_	_
-9	être	_	_	_	_	10	cop	_	_
-10	pauvre	_	_	_	_	7	ccomp	_	_
-11	.	_	_	_	_	2	punct	_	_
-
 # macrosyntax = $L2 je sais ce que c'est que d'être pauvre //=
 # sent_id = Rhap_D2001-72
 # speaker = L2
@@ -16267,7 +15785,7 @@
 2	sais	_	_	_	_	0	root	_	_
 3	surtout	_	_	_	_	2	advmod	_	_
 4	,	_	_	_	_	5	punct	_	_
-5	ce	_	_	_	_	2	parataxis:parenth	_	_
+5	ce	_	_	_	_	2	parataxis	_	_
 6	qui	_	_	_	_	8	nsubj	_	_
 7	me	_	_	_	_	8	iobj	_	_
 8	paraît	_	_	_	_	5	acl:relcl	_	_
@@ -16484,21 +16002,6 @@
 11	bien	_	_	_	_	12	advmod	_	_
 12	élevées	_	_	_	_	10	amod	_	_
 13	.	_	_	_	_	2	punct	_	_
-
-# macrosyntax = donc < qu'est-ce que je peux apprendre //
-# sent_id = Rhap_D2001-86bis
-# speaker = L2
-# text = donc, qu'est-ce que je peux apprendre ?
-1	donc	_	_	_	_	3	advmod	_	_
-2	,	_	_	_	_	1	punct	_	_
-3	qu'	_	_	_	_	0	root	_	_
-4	est	_	_	_	_	3	cop	_	_
-5	-ce	_	_	_	_	3	expl:subj	_	_
-6	que	_	_	_	_	9	dep:comp	_	_
-7	je	_	_	_	_	8	nsubj	_	_
-8	peux	_	_	_	_	3	advcl:cleft	_	_
-9	apprendre	_	_	_	_	8	xcomp	_	_
-10	?	_	_	_	_	3	punct	_	_
 
 # macrosyntax = je me suis dit [ je vais apprendre la sténodactylo // ] //
 # sent_id = Rhap_D2001-87
@@ -16862,23 +16365,6 @@
 10	gagnes	_	_	_	_	5	advcl:cleft	_	_
 11	?	_	_	_	_	4	punct	_	_
 
-# macrosyntax = ^et j'ai dit [ je gagne trois cents francs par mois // ] //
-# sent_id = Rhap_D2001-112
-# speaker = L2
-# text = et j'ai dit je gagne trois cents francs par mois.
-1	et	_	_	_	_	4	cc	_	_
-2	j'	_	_	_	_	4	nsubj	_	_
-3	ai	_	_	_	_	4	aux:tense	_	_
-4	dit	_	_	_	_	0	root	_	_
-5	je	_	_	_	_	6	nsubj	_	_
-6	gagne	_	_	_	_	4	ccomp	_	_
-7	trois	_	_	_	_	9	nummod	_	_
-8	cents	_	_	_	_	7	flat	_	_
-9	francs	_	_	_	_	6	obj	_	_
-10	par	_	_	_	_	11	case	_	_
-11	mois	_	_	_	_	6	obl:mod	_	_
-12	.	_	_	_	_	4	punct	_	_
-
 # macrosyntax = ^et il m'a dit [ ^mais tu perds ton temps // ] //
 # sent_id = Rhap_D2001-113
 # speaker = L2
@@ -16941,21 +16427,6 @@
 13	pas	_	_	_	_	14	advmod	_	_
 14	sérieux	_	_	_	_	5	ccomp	_	_
 15	.	_	_	_	_	5	punct	_	_
-
-# macrosyntax = il faut que tu deviennes script girl > par exemple //
-# sent_id = Rhap_D2001-117bis
-# speaker = L2
-# text = il faut que tu deviennes script girl par exemple.
-1	il	_	_	_	_	2	expl:subj	_	_
-2	faut	_	_	_	_	0	root	_	_
-3	que	_	_	_	_	2	dep:comp	_	_
-4	tu	_	_	_	_	5	nsubj	_	_
-5	deviennes	_	_	_	_	3	ccomp	_	_
-6	script	_	_	_	_	7	compound	_	_
-7	girl	_	_	_	_	5	obj	_	_
-8	par	_	_	_	_	9	case	_	_
-9	exemple	_	_	_	_	2	obl:mod	_	_
-10	.	_	_	_	_	2	punct	_	_
 
 # macrosyntax = viens travailler avec moi //
 # sent_id = Rhap_D2001-117ter
@@ -17619,63 +17090,6 @@
 27	armées	_	_	_	_	26	amod	_	_
 28	.	_	_	_	_	18	punct	_	_
 
-# macrosyntax = c'est bien sûr dans mon esprit la marque du lien direct qui unit le président de la république (+ chef des armées ) avec " euh " { toutes celles | ^ et tous ceux } qui ont la difficile mission de veiller { sur nos intérêts | ^ et sur la sécurité de nos concitoyens } //
-# sent_id = Rhap_M2001-3
-# text = c'est bien sûr dans mon esprit la marque du lien direct qui unit le président de la république, chef des armées, avec, euh, toutes celles et tous ceux qui ont la difficile mission de veiller sur nos intérêts et sur la sécurité de nos concitoyens.
-1	c'	_	_	_	_	9	nsubj	_	_
-2	est	_	_	_	_	9	cop	_	_
-3	bien	_	_	_	_	9	advmod	_	_
-4	sûr	_	_	_	_	3	fixed	_	_
-5	dans	_	_	_	_	7	case	_	_
-6	mon	_	_	_	_	7	det	_	_
-7	esprit	_	_	_	_	9	obl:mod	_	_
-8	la	_	_	_	_	9	det	_	_
-9	marque	_	_	_	_	0	root	_	_
-10	_	_	_	_	_	12	_	_	_
-11	du	_	_	_	_	12	case:det	_	_
-12	lien	_	_	_	_	9	nmod	_	_
-13	direct	_	_	_	_	12	amod	_	_
-14	qui	_	_	_	_	15	nsubj	_	_
-15	unit	_	_	_	_	12	acl:relcl	_	_
-16	le	_	_	_	_	17	det	_	_
-17	président	_	_	_	_	15	obj	_	_
-18	de	_	_	_	_	20	case	_	_
-19	la	_	_	_	_	20	det	_	_
-20	république	_	_	_	_	17	nmod	_	_
-21	,	_	_	_	_	22	punct	_	_
-22	chef	_	_	_	_	17	compound	_	_
-23	_	_	_	_	_	25	_	_	_
-24	des	_	_	_	_	25	case:det	_	_
-25	armées	_	_	_	_	22	nmod	_	_
-26	,	_	_	_	_	32	punct	_	_
-27	avec	_	_	_	_	32	case	_	_
-28	,	_	_	_	_	32	punct	_	_
-29	euh	_	_	_	_	32	discourse	_	_
-30	,	_	_	_	_	29	punct	_	_
-31	toutes	_	_	_	_	32	amod	_	_
-32	celles	_	_	_	_	15	obl:mod	_	_
-33	et	_	_	_	_	35	cc	_	_
-34	tous	_	_	_	_	35	amod	_	_
-35	ceux	_	_	_	_	32	conj	_	_
-36	qui	_	_	_	_	37	nsubj	_	_
-37	ont	_	_	_	_	32	acl:relcl	_	_
-38	la	_	_	_	_	40	det	_	_
-39	difficile	_	_	_	_	40	amod	_	_
-40	mission	_	_	_	_	37	obj	_	_
-41	de	_	_	_	_	42	mark	_	_
-42	veiller	_	_	_	_	40	acl	_	_
-43	sur	_	_	_	_	45	case	_	_
-44	nos	_	_	_	_	45	det	_	_
-45	intérêts	_	_	_	_	42	obl:arg	_	_
-46	et	_	_	_	_	49	cc	_	_
-47	sur	_	_	_	_	49	case	_	_
-48	la	_	_	_	_	49	det	_	_
-49	sécurité	_	_	_	_	45	conj	_	_
-50	de	_	_	_	_	52	case	_	_
-51	nos	_	_	_	_	52	det	_	_
-52	concitoyens	_	_	_	_	49	nmod	_	_
-53	.	_	_	_	_	9	punct	_	_
-
 # macrosyntax = c'est pour cela que je tenais à vous rencontrer la veille de notre fête nationale //
 # sent_id = Rhap_M2001-4
 # text = c'est pour cela que je tenais à vous rencontrer la veille de notre fête nationale.
@@ -17706,7 +17120,7 @@
 4	,	_	_	_	_	2	punct	_	_
 5	lors	_	_	_	_	14	advmod	_	_
 6	_	_	_	_	_	5	_	_	_
-7	du	_	_	_	_	9	dep:det	_	_
+7	du	_	_	_	_	9	case:det	_	_
 8	traditionnel	_	_	_	_	9	amod	_	_
 9	défilé	_	_	_	_	6	obl:arg	_	_
 10	,	_	_	_	_	5	punct	_	_
@@ -17945,7 +17359,7 @@
 55	responsabilités	_	_	_	_	53	obj	_	_
 56	et	_	_	_	_	64	cc	_	_
 57	_	_	_	_	_	64	_	_	_
-58	au	_	_	_	_	57	obl:arg:fixed	_	_
+58	au	_	_	_	_	57	case:det	_	_
 59	sein	_	_	_	_	57	fixed	_	_
 60	de	_	_	_	_	61	case	_	_
 61	laquelle	_	_	_	_	57	obl:arg	_	_
@@ -18083,7 +17497,7 @@
 7	et	_	_	_	_	10	cc	_	_
 8	vous	_	_	_	_	10	nsubj	_	_
 9	le	_	_	_	_	10	obj	_	_
-10	savez	_	_	_	_	1	parataxis:parenth	_	_
+10	savez	_	_	_	_	1	parataxis	_	_
 11	mieux	_	_	_	_	10	advmod	_	_
 12	que	_	_	_	_	13	case	_	_
 13	personne	_	_	_	_	11	obl:mod	_	_
@@ -19366,7 +18780,7 @@
 23	plus	_	_	_	_	24	advmod	_	_
 24	vite	_	_	_	_	22	advmod	_	_
 25	,	_	_	_	_	22	punct	_	_
-26	croyez	_	_	_	_	22	parataxis:insert	_	_
+26	croyez	_	_	_	_	22	parataxis	_	_
 27	-moi	_	_	_	_	26	obj	_	_
 28	!	_	_	_	_	22	punct	_	_
 
@@ -19477,7 +18891,7 @@
 13	le	_	_	_	_	11	advmod	_	_
 14	moins	_	_	_	_	13	fixed	_	_
 15	_	_	_	_	_	13	_	_	_
-16	du	_	_	_	_	13	fixed:fixed	_	_
+16	du	_	_	_	_	13	case:det	_	_
 17	monde	_	_	_	_	13	fixed	_	_
 18	à	_	_	_	_	20	case	_	_
 19	ces	_	_	_	_	20	det	_	_
@@ -19783,7 +19197,7 @@
 12	c'	_	_	_	_	15	nsubj	_	_
 13	est	_	_	_	_	15	cop	_	_
 14	l'	_	_	_	_	15	det	_	_
-15	objet	_	_	_	_	9	parataxis:insert	_	_
+15	objet	_	_	_	_	9	parataxis	_	_
 16	d'	_	_	_	_	18	case	_	_
 17	un	_	_	_	_	18	det	_	_
 18	amendement	_	_	_	_	15	nmod	_	_
@@ -20362,7 +19776,7 @@
 17	être	_	_	_	_	18	aux:pass	_	_
 18	envoyées	_	_	_	_	16	xcomp	_	_
 19	_	_	_	_	_	18	_	_	_
-20	au	_	_	_	_	19	advmod:fixed	_	_
+20	au	_	_	_	_	19	case:det	_	_
 21	plus	_	_	_	_	19	fixed	_	_
 22	vite	_	_	_	_	19	fixed	_	_
 23	.	_	_	_	_	16	punct	_	_
@@ -20591,7 +20005,7 @@
 34	encore	_	_	_	_	32	advmod	_	_
 35	,	_	_	_	_	41	punct	_	_
 36	_	_	_	_	_	41	_	_	_
-37	du	_	_	_	_	36	advmod:fixed	_	_
+37	du	_	_	_	_	36	case:det	_	_
 38	moins	_	_	_	_	36	fixed	_	_
 39	à	_	_	_	_	41	case	_	_
 40	mon	_	_	_	_	41	det	_	_
@@ -21961,46 +21375,6 @@
 13	joué	_	_	_	_	5	advcl:cleft	_	_
 14	.	_	_	_	_	5	punct	_	_
 
-# sent_id = annodis.er_00153
-# text = Plus simplement, les hasards du calendrier du Comité départemental d'action touristique a fait coïncider la promotion de l'Office de tourisme avec le nouveau classement de l'hôtel-restaurant Le Relais à Arc-et-Senans.
-1	Plus	_	_	_	_	2	advmod	_	_
-2	simplement	_	_	_	_	18	advmod	_	_
-3	,	_	_	_	_	2	punct	_	_
-4	les	_	_	_	_	5	det	_	_
-5	hasards	_	_	_	_	18	nsubj:caus	_	_
-6	_	_	_	_	_	8	_	_	_
-7	du	_	_	_	_	8	case:det	_	_
-8	calendrier	_	_	_	_	5	nmod	_	_
-9	_	_	_	_	_	11	_	_	_
-10	du	_	_	_	_	11	case:det	_	_
-11	Comité	_	_	_	_	8	nmod	_	_
-12	départemental	_	_	_	_	11	amod	_	_
-13	d'	_	_	_	_	14	case	_	_
-14	action	_	_	_	_	11	nmod	_	_
-15	touristique	_	_	_	_	14	amod	_	_
-16	a	_	_	_	_	18	aux:tense	_	_
-17	fait	_	_	_	_	18	aux:caus	_	_
-18	coïncider	_	_	_	_	0	root	_	_
-19	la	_	_	_	_	20	det	_	_
-20	promotion	_	_	_	_	18	obj:agent	_	_
-21	de	_	_	_	_	23	case	_	_
-22	l'	_	_	_	_	23	det	_	_
-23	Office	_	_	_	_	20	nmod	_	_
-24	de	_	_	_	_	25	case	_	_
-25	tourisme	_	_	_	_	23	nmod	_	_
-26	avec	_	_	_	_	29	case	_	_
-27	le	_	_	_	_	29	det	_	_
-28	nouveau	_	_	_	_	29	amod	_	_
-29	classement	_	_	_	_	18	obl:arg	_	_
-30	de	_	_	_	_	32	case	_	_
-31	l'	_	_	_	_	32	det	_	_
-32	hôtel-restaurant	_	_	_	_	29	nmod	_	_
-33	Le	_	_	_	_	34	det	_	_
-34	Relais	_	_	_	_	32	nmod	_	_
-35	à	_	_	_	_	36	case	_	_
-36	Arc-et-Senans	_	_	_	_	32	nmod	_	_
-37	.	_	_	_	_	18	punct	_	_
-
 # sent_id = annodis.er_00157
 # text = Une juste récompense pour les efforts de qualité entrepris par Jeanine et Willy Schaer, jeune couple d'hôteliers originaires de Haute-Saône et installés à Arc-et-Senans depuis maintenant treize ans.
 1	Une	_	_	_	_	3	det	_	_
@@ -22510,7 +21884,7 @@
 9	leur	_	_	_	_	10	det	_	_
 10	présence	_	_	_	_	7	nmod	_	_
 11	"	_	_	_	_	4	punct	_	_
-12	commentait	_	_	_	_	4	parataxis:insert	_	_
+12	commentait	_	_	_	_	4	parataxis	_	_
 13	le	_	_	_	_	14	det	_	_
 14	commissaire	_	_	_	_	12	nsubj	_	_
 15	central	_	_	_	_	14	amod	_	_
@@ -22947,20 +22321,6 @@
 5	le	_	_	_	_	6	det	_	_
 6	corbeau	_	_	_	_	4	nmod	_	_
 
-# sent_id = annodis.er_00437
-# text = Le comédien a fait participer les enfants au spectacle.
-1	Le	_	_	_	_	2	det	_	_
-2	comédien	_	_	_	_	5	nsubj:caus	_	_
-3	a	_	_	_	_	5	aux:tense	_	_
-4	fait	_	_	_	_	5	aux:caus	_	_
-5	participer	_	_	_	_	0	root	_	_
-6	les	_	_	_	_	7	det	_	_
-7	enfants	_	_	_	_	5	obj:agent	_	_
-8	_	_	_	_	_	10	_	_	_
-9	au	_	_	_	_	10	case:det	_	_
-10	spectacle	_	_	_	_	5	obl:arg	_	_
-11	.	_	_	_	_	5	punct	_	_
-
 # sent_id = annodis.er_00439
 # text = Les projets se concrétisent.
 1	Les	_	_	_	_	2	det	_	_
@@ -23161,7 +22521,7 @@
 # sent_id = annodis.er_00490
 # text = L'état de ces dernières a fait dépêcher sur place des ambulances des pompiers de Montreux-Château, d'Alkirch et de Dannemarie ainsi que les Samu du Haut-Rhin et du Territoire de Belfort.
 1	L'	_	_	_	_	2	det	_	_
-2	état	_	_	_	_	8	nsubj:caus	_	_
+2	état	_	_	_	_	8	nsubj	_	_
 3	de	_	_	_	_	5	case	_	_
 4	ces	_	_	_	_	5	det	_	_
 5	dernières	_	_	_	_	2	nmod	_	_
@@ -23959,7 +23319,7 @@
 # text = Rare (1/10000 à 1/1000)
 1	Rare	_	_	_	_	0	root	_	_
 2	(	_	_	_	_	3	punct	_	_
-3	1/10000	_	_	_	_	1	parataxis:insert	_	_
+3	1/10000	_	_	_	_	1	parataxis	_	_
 4	à	_	_	_	_	5	case	_	_
 5	1/1000	_	_	_	_	3	nmod	_	_
 6	)	_	_	_	_	3	punct	_	_
@@ -24004,36 +23364,6 @@
 21	saignement	_	_	_	_	19	nmod	_	_
 22	majeur	_	_	_	_	21	amod	_	_
 23	.	_	_	_	_	6	punct	_	_
-
-# sent_id = emea-fr-dev_00256
-# text = Des saignements mineurs ont été rapportés de façon très fréquente (1/10) et les saignements majeurs de façon fréquente (1/100 et < 1/10).
-1	Des	_	_	_	_	2	det	_	_
-2	saignements	_	_	_	_	6	nsubj:pass	_	_
-3	mineurs	_	_	_	_	2	amod	_	_
-4	ont	_	_	_	_	6	aux:tense	_	_
-5	été	_	_	_	_	6	aux:pass	_	_
-6	rapportés	_	_	_	_	0	root	_	_
-7	de	_	_	_	_	8	case	_	_
-8	façon	_	_	_	_	6	obl:mod	_	_
-9	très	_	_	_	_	10	advmod	_	_
-10	fréquente	_	_	_	_	8	amod	_	_
-11	(	_	_	_	_	12	punct	_	_
-12	1/10	_	_	_	_	10	parataxis:insert	_	_
-13	)	_	_	_	_	12	punct	_	_
-14	et	_	_	_	_	16	cc	_	_
-15	les	_	_	_	_	16	det	_	_
-16	saignements	_	_	_	_	6	conj	_	_
-17	majeurs	_	_	_	_	16	amod	_	_
-18	de	_	_	_	_	19	case	_	_
-19	façon	_	_	_	_	16	orphan	_	_
-20	fréquente	_	_	_	_	19	amod	_	_
-21	(	_	_	_	_	22	punct	_	_
-22	1/100	_	_	_	_	20	parataxis:insert	_	_
-23	et	_	_	_	_	25	cc	_	_
-24	<	_	_	_	_	25	case	_	_
-25	1/10	_	_	_	_	22	conj	_	_
-26	)	_	_	_	_	22	punct	_	_
-27	.	_	_	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00257
 # text = Tant les saignements mineurs que majeurs ont été significativement moins fréquents avec la bivalirudine par rapport au groupe de comparaison héparine plus inhibiteur de la GP IIb/IIIa.
@@ -24677,7 +24007,7 @@
 40	redescendu	_	_	_	_	34	conj	_	_
 41	d'	_	_	_	_	46	case	_	_
 42	_	_	_	_	_	46	_	_	_
-43	au	_	_	_	_	42	advmod:fixed	_	_
+43	au	_	_	_	_	42	case:det	_	_
 44	moins	_	_	_	_	42	fixed	_	_
 45	75	_	_	_	_	46	nummod	_	_
 46	%	_	_	_	_	40	obl:arg	_	_
@@ -24716,51 +24046,6 @@
 22	au	_	_	_	_	23	case:det	_	_
 23	placebo	_	_	_	_	20	nmod	_	_
 24	.	_	_	_	_	10	punct	_	_
-
-# sent_id = emea-fr-test_00046
-# text = Après six mois, le pourcentage des patients ayant répondu au traitement a été de 95% dans une étude et de 97% dans l'autre, contre 75% et 73% des patients sous risédronate.
-1	Après	_	_	_	_	3	case	_	_
-2	six	_	_	_	_	3	nummod	_	_
-3	mois	_	_	_	_	19	obl:mod	_	_
-4	,	_	_	_	_	3	punct	_	_
-5	le	_	_	_	_	6	det	_	_
-6	pourcentage	_	_	_	_	19	nsubj	_	_
-7	_	_	_	_	_	9	_	_	_
-8	des	_	_	_	_	9	case:det	_	_
-9	patients	_	_	_	_	6	nmod	_	_
-10	ayant	_	_	_	_	11	aux:tense	_	_
-11	répondu	_	_	_	_	9	acl	_	_
-12	_	_	_	_	_	14	_	_	_
-13	au	_	_	_	_	14	case:det	_	_
-14	traitement	_	_	_	_	11	obl:arg	_	_
-15	a	_	_	_	_	19	aux:tense	_	_
-16	été	_	_	_	_	19	cop	_	_
-17	de	_	_	_	_	19	case	_	_
-18	95	_	_	_	_	19	nummod	_	_
-19	%	_	_	_	_	0	root	_	_
-20	dans	_	_	_	_	22	case	_	_
-21	une	_	_	_	_	22	det	_	_
-22	étude	_	_	_	_	19	obl:mod	_	_
-23	et	_	_	_	_	26	cc	_	_
-24	de	_	_	_	_	26	case	_	_
-25	97	_	_	_	_	26	nummod	_	_
-26	%	_	_	_	_	19	conj	_	_
-27	dans	_	_	_	_	29	case	_	_
-28	l'	_	_	_	_	29	det	_	_
-29	autre	_	_	_	_	26	orphan	_	_
-30	,	_	_	_	_	33	punct	_	_
-31	contre	_	_	_	_	33	case	_	_
-32	75	_	_	_	_	33	nummod	_	_
-33	%	_	_	_	_	19	obl:mod	_	_
-34	et	_	_	_	_	36	cc	_	_
-35	73	_	_	_	_	36	nummod	_	_
-36	%	_	_	_	_	33	conj	_	_
-37	_	_	_	_	_	39	_	_	_
-38	des	_	_	_	_	39	case:det	_	_
-39	patients	_	_	_	_	33	nmod	_	_
-40	sous	_	_	_	_	41	case	_	_
-41	risédronate	_	_	_	_	39	nmod	_	_
-42	.	_	_	_	_	19	punct	_	_
 
 # sent_id = emea-fr-test_00048
 # text = La plupart des effets indésirables associés à Aclasta ont tendance à se produire dans les trois jours suivant la perfusion et ils deviennent moins fréquents lors des perfusions réitérées.
@@ -24857,7 +24142,7 @@
 34	la	_	_	_	_	35	det	_	_
 35	fracture	_	_	_	_	32	nmod	_	_
 36	(	_	_	_	_	19	punct	_	_
-37	voir	_	_	_	_	19	parataxis:insert	_	_
+37	voir	_	_	_	_	19	parataxis	_	_
 38	rubrique	_	_	_	_	37	obj	_	_
 39	5.1	_	_	_	_	38	nmod	_	_
 40	)	_	_	_	_	19	punct	_	_
@@ -25197,7 +24482,7 @@
 57	-1,5	_	_	_	_	50	nmod	_	_
 58	et	_	_	_	_	63	cc	_	_
 59	_	_	_	_	_	63	_	_	_
-60	au	_	_	_	_	59	advmod:fixed	_	_
+60	au	_	_	_	_	59	case:det	_	_
 61	moins	_	_	_	_	59	fixed	_	_
 62	deux	_	_	_	_	63	nummod	_	_
 63	fractures	_	_	_	_	41	conj	_	_
@@ -25246,7 +24531,7 @@
 # sent_id = emea-fr-test_00218
 # text = Au moins une nouvelle fracture vertébrale (0-3 ans)
 1	_	_	_	_	_	6	_	_	_
-2	Au	_	_	_	_	1	advmod:fixed	_	_
+2	Au	_	_	_	_	1	case:det	_	_
 3	moins	_	_	_	_	1	fixed	_	_
 4	une	_	_	_	_	6	det	_	_
 5	nouvelle	_	_	_	_	6	amod	_	_
@@ -25254,7 +24539,7 @@
 7	vertébrale	_	_	_	_	6	amod	_	_
 8	(	_	_	_	_	10	punct	_	_
 9	0-3	_	_	_	_	10	nummod	_	_
-10	ans	_	_	_	_	6	parataxis:insert	_	_
+10	ans	_	_	_	_	6	parataxis	_	_
 11	)	_	_	_	_	10	punct	_	_
 
 # sent_id = emea-fr-test_00224
@@ -25405,7 +24690,7 @@
 35	placebo	_	_	_	_	34	nmod	_	_
 36	(	_	_	_	_	4	punct	_	_
 37	p	_	_	_	_	38	nsubj	_	_
-38	<	_	_	_	_	4	parataxis:insert	_	_
+38	<	_	_	_	_	4	parataxis	_	_
 39	0,01	_	_	_	_	38	obj	_	_
 40	pour	_	_	_	_	43	case	_	_
 41	toutes	_	_	_	_	43	amod	_	_
@@ -25521,42 +24806,6 @@
 31	les	_	_	_	_	32	det	_	_
 32	mesures	_	_	_	_	12	obl:mod	_	_
 33	.	_	_	_	_	12	punct	_	_
-
-# sent_id = emea-fr-test_00274
-# text = Une augmentation de 5,4% au fémur total et de 4,3% au col fémoral a été observé sous Aclasta, en comparaison au placebo durant les 24 mois.
-1	Une	_	_	_	_	2	det	_	_
-2	augmentation	_	_	_	_	20	nsubj:pass	_	_
-3	de	_	_	_	_	5	case	_	_
-4	5,4	_	_	_	_	5	nummod	_	_
-5	%	_	_	_	_	2	nmod	_	_
-6	_	_	_	_	_	8	_	_	_
-7	au	_	_	_	_	8	case:det	_	_
-8	fémur	_	_	_	_	2	nmod	_	_
-9	total	_	_	_	_	8	amod	_	_
-10	et	_	_	_	_	13	cc	_	_
-11	de	_	_	_	_	13	case	_	_
-12	4,3	_	_	_	_	13	nummod	_	_
-13	%	_	_	_	_	5	conj	_	_
-14	_	_	_	_	_	16	_	_	_
-15	au	_	_	_	_	16	case:det	_	_
-16	col	_	_	_	_	13	orphan	_	_
-17	fémoral	_	_	_	_	16	amod	_	_
-18	a	_	_	_	_	20	aux:tense	_	_
-19	été	_	_	_	_	20	aux:pass	_	_
-20	observé	_	_	_	_	0	root	_	_
-21	sous	_	_	_	_	22	case	_	_
-22	Aclasta	_	_	_	_	20	obl:mod	_	_
-23	,	_	_	_	_	25	punct	_	_
-24	en	_	_	_	_	25	case	_	_
-25	comparaison	_	_	_	_	20	obl:mod	_	_
-26	_	_	_	_	_	28	_	_	_
-27	au	_	_	_	_	28	case:det	_	_
-28	placebo	_	_	_	_	25	nmod	_	_
-29	durant	_	_	_	_	32	case	_	_
-30	les	_	_	_	_	32	det	_	_
-31	24	_	_	_	_	32	nummod	_	_
-32	mois	_	_	_	_	20	obl:mod	_	_
-33	.	_	_	_	_	20	punct	_	_
 
 # sent_id = emea-fr-test_00278
 # text = L'étude n'était pas conçue pour montrer une réduction sur les fractures cliniques chez les hommes ;
@@ -26559,7 +25808,7 @@
 17	,	_	_	_	_	27	punct	_	_
 18	mais	_	_	_	_	27	cc	_	_
 19	l'	_	_	_	_	20	det	_	_
-20	essentiel	_	_	_	_	27	nsubj:outer	_	_
+20	essentiel	_	_	_	_	27	nsubj	_	_
 21	était	_	_	_	_	27	cop	_	_
 22	que	_	_	_	_	27	mark	_	_
 23	ces	_	_	_	_	25	det	_	_
@@ -26690,41 +25939,6 @@
 1	Médias	_	_	_	_	0	root	_	_
 2	.	_	_	_	_	1	punct	_	_
 
-# sent_id = frwiki_50.1000_00091
-# text = Ils ont vidé les supermarchés de nourriture, les pharmacies de médicaments, les usines de matériel médical, ils ont cambriolé les maisons et torturé des voisins et des amis.
-1	Ils	_	_	_	_	3	nsubj	_	_
-2	ont	_	_	_	_	3	aux:tense	_	_
-3	vidé	_	_	_	_	0	root	_	_
-4	les	_	_	_	_	5	det	_	_
-5	supermarchés	_	_	_	_	3	obj	_	_
-6	de	_	_	_	_	7	case	_	_
-7	nourriture	_	_	_	_	3	obl:arg	_	_
-8	,	_	_	_	_	10	punct	_	_
-9	les	_	_	_	_	10	det	_	_
-10	pharmacies	_	_	_	_	3	conj	_	_
-11	de	_	_	_	_	12	case	_	_
-12	médicaments	_	_	_	_	10	orphan	_	_
-13	,	_	_	_	_	15	punct	_	_
-14	les	_	_	_	_	15	det	_	_
-15	usines	_	_	_	_	3	conj	_	_
-16	de	_	_	_	_	17	case	_	_
-17	matériel	_	_	_	_	15	orphan	_	_
-18	médical	_	_	_	_	17	amod	_	_
-19	,	_	_	_	_	22	punct	_	_
-20	ils	_	_	_	_	22	nsubj	_	_
-21	ont	_	_	_	_	22	aux:tense	_	_
-22	cambriolé	_	_	_	_	3	conj	_	_
-23	les	_	_	_	_	24	det	_	_
-24	maisons	_	_	_	_	22	obj	_	_
-25	et	_	_	_	_	26	cc	_	_
-26	torturé	_	_	_	_	22	conj	_	_
-27	des	_	_	_	_	28	det	_	_
-28	voisins	_	_	_	_	26	obj	_	_
-29	et	_	_	_	_	31	cc	_	_
-30	des	_	_	_	_	31	det	_	_
-31	amis	_	_	_	_	28	conj	_	_
-32	.	_	_	_	_	3	punct	_	_
-
 # sent_id = frwiki_50.1000_00107
 # text = - Propagande
 1	-	_	_	_	_	2	punct	_	_
@@ -26849,7 +26063,7 @@
 19	Estaing	_	_	_	_	16	nmod	_	_
 20	face	_	_	_	_	23	case	_	_
 21	_	_	_	_	_	20	_	_	_
-22	au	_	_	_	_	23	fixed:det	_	_
+22	au	_	_	_	_	23	case:det	_	_
 23	candidat	_	_	_	_	14	nmod	_	_
 24	_	_	_	_	_	26	_	_	_
 25	du	_	_	_	_	26	case:det	_	_
@@ -27086,65 +26300,6 @@
 13	organisateur	_	_	_	_	11	conj	_	_
 14	.	_	_	_	_	4	punct	_	_
 
-# sent_id = frwiki_50.1000_00206
-# text = Dans une ordonnance rendue en avril 1999, le Procureur de la République de Nanterre, Yves Bot, explique que cette lettre fait peser à l'encontre de Jacques Chirac de fortes présomptions sur sa participation "aux faits de prise illégale d'intérêt et de recel d'abus de biens sociaux".
-1	Dans	_	_	_	_	3	case	_	_
-2	une	_	_	_	_	3	det	_	_
-3	ordonnance	_	_	_	_	20	obl:mod	_	_
-4	rendue	_	_	_	_	3	acl	_	_
-5	en	_	_	_	_	6	case	_	_
-6	avril	_	_	_	_	4	obl:mod	_	_
-7	1999	_	_	_	_	6	nmod	_	_
-8	,	_	_	_	_	3	punct	_	_
-9	le	_	_	_	_	10	det	_	_
-10	Procureur	_	_	_	_	20	nsubj	_	_
-11	de	_	_	_	_	13	case	_	_
-12	la	_	_	_	_	13	det	_	_
-13	République	_	_	_	_	10	nmod	_	_
-14	de	_	_	_	_	15	case	_	_
-15	Nanterre	_	_	_	_	10	nmod	_	_
-16	,	_	_	_	_	17	punct	_	_
-17	Yves	_	_	_	_	10	appos	_	_
-18	Bot	_	_	_	_	17	flat:name	_	_
-19	,	_	_	_	_	17	punct	_	_
-20	explique	_	_	_	_	0	root	_	_
-21	que	_	_	_	_	25	mark	_	_
-22	cette	_	_	_	_	23	det	_	_
-23	lettre	_	_	_	_	25	nsubj:caus	_	_
-24	fait	_	_	_	_	25	aux:caus	_	_
-25	peser	_	_	_	_	20	ccomp	_	_
-26	à	_	_	_	_	28	case	_	_
-27	l'	_	_	_	_	28	det	_	_
-28	encontre	_	_	_	_	25	obl:mod	_	_
-29	de	_	_	_	_	30	case	_	_
-30	Jacques	_	_	_	_	28	nmod	_	_
-31	Chirac	_	_	_	_	30	flat:name	_	_
-32	de	_	_	_	_	34	det	_	_
-33	fortes	_	_	_	_	34	amod	_	_
-34	présomptions	_	_	_	_	25	obj:agent	_	_
-35	sur	_	_	_	_	37	case	_	_
-36	sa	_	_	_	_	37	det	_	_
-37	participation	_	_	_	_	34	nmod	_	_
-38	"	_	_	_	_	41	punct	_	_
-39	_	_	_	_	_	41	_	_	_
-40	aux	_	_	_	_	41	case:det	_	_
-41	faits	_	_	_	_	37	nmod	_	_
-42	de	_	_	_	_	43	case	_	_
-43	prise	_	_	_	_	41	nmod	_	_
-44	illégale	_	_	_	_	43	amod	_	_
-45	d'	_	_	_	_	46	case	_	_
-46	intérêt	_	_	_	_	43	nmod	_	_
-47	et	_	_	_	_	49	cc	_	_
-48	de	_	_	_	_	49	case	_	_
-49	recel	_	_	_	_	43	conj	_	_
-50	d'	_	_	_	_	51	case	_	_
-51	abus	_	_	_	_	49	nmod	_	_
-52	de	_	_	_	_	53	case	_	_
-53	biens	_	_	_	_	51	nmod	_	_
-54	sociaux	_	_	_	_	53	amod	_	_
-55	"	_	_	_	_	41	punct	_	_
-56	.	_	_	_	_	20	punct	_	_
-
 # sent_id = frwiki_50.1000_00208
 # text = Le procureur général à la Cour de cassation Jean-François Burgelin, par ailleurs proche du Chef de l'État, décide fin août que la juridiction ne se penchera pas sur ce dossier délicat.
 1	Le	_	_	_	_	2	det	_	_
@@ -27350,7 +26505,7 @@
 3	pratique	_	_	_	_	18	obl:mod	_	_
 4	,	_	_	_	_	3	punct	_	_
 5	la	_	_	_	_	6	det	_	_
-6	direction	_	_	_	_	18	nsubj:caus	_	_
+6	direction	_	_	_	_	18	nsubj	_	_
 7	_	_	_	_	_	9	_	_	_
 8	du	_	_	_	_	9	case:det	_	_
 9	G.O.	_	_	_	_	6	nmod	_	_
@@ -27450,7 +26605,7 @@
 42	(	_	_	_	_	45	punct	_	_
 43	ils	_	_	_	_	45	nsubj	_	_
 44	ne	_	_	_	_	45	advmod	_	_
-45	votent	_	_	_	_	32	parataxis:insert	_	_
+45	votent	_	_	_	_	32	parataxis	_	_
 46	pas	_	_	_	_	45	advmod	_	_
 47	et	_	_	_	_	49	cc	_	_
 48	n'	_	_	_	_	49	advmod	_	_
@@ -27466,7 +26621,7 @@
 58	politiques	_	_	_	_	57	amod	_	_
 59	-	_	_	_	_	66	punct	_	_
 60	_	_	_	_	_	66	_	_	_
-61	du	_	_	_	_	60	advmod:fixed	_	_
+61	du	_	_	_	_	60	case:det	_	_
 62	moins	_	_	_	_	60	fixed	_	_
 63	pas	_	_	_	_	66	advmod	_	_
 64	_	_	_	_	_	66	_	_	_
@@ -27490,7 +26645,7 @@
 82	droit	_	_	_	_	79	obj	_	_
 83	-	_	_	_	_	89	punct	_	_
 84	_	_	_	_	_	89	_	_	_
-85	du	_	_	_	_	84	advmod:fixed	_	_
+85	du	_	_	_	_	84	case:det	_	_
 86	moins	_	_	_	_	84	fixed	_	_
 87	dans	_	_	_	_	89	case	_	_
 88	l'	_	_	_	_	89	det	_	_
@@ -27696,7 +26851,7 @@
 19	rigoureuses	_	_	_	_	17	amod	_	_
 20	"	_	_	_	_	17	punct	_	_
 21	,	_	_	_	_	2	punct	_	_
-22	écrivait	_	_	_	_	35	parataxis:insert	_	_
+22	écrivait	_	_	_	_	35	parataxis	_	_
 23	Jean-François	_	_	_	_	22	nsubj	_	_
 24	Briand	_	_	_	_	23	flat:name	_	_
 25	,	_	_	_	_	28	punct	_	_
@@ -27936,11 +27091,11 @@
 50	2001	_	_	_	_	49	nmod	_	_
 51	(	_	_	_	_	57	punct	_	_
 52	Volume	_	_	_	_	57	parataxis	_	_
-53	5	_	_	_	_	52	parataxis:insert	_	_
+53	5	_	_	_	_	52	parataxis	_	_
 54	-	_	_	_	_	52	punct	_	_
 55	Le	_	_	_	_	57	det	_	_
 56	Grand	_	_	_	_	52	amod	_	_
-57	Duché	_	_	_	_	2	parataxis:insert	_	_
+57	Duché	_	_	_	_	2	parataxis	_	_
 58	_	_	_	_	_	60	_	_	_
 59	du	_	_	_	_	60	case:det	_	_
 60	Luxembourg	_	_	_	_	57	nmod	_	_
@@ -30300,7 +29455,7 @@
 14	doit	_	_	_	_	9	acl:relcl	_	_
 15	durer	_	_	_	_	14	xcomp	_	_
 16	_	_	_	_	_	20	_	_	_
-17	au	_	_	_	_	16	advmod:fixed	_	_
+17	au	_	_	_	_	16	case:det	_	_
 18	moins	_	_	_	_	16	fixed	_	_
 19	15	_	_	_	_	20	nummod	_	_
 20	minutes	_	_	_	_	15	obj	_	_
@@ -30339,7 +29494,7 @@
 9	doivent	_	_	_	_	0	root	_	_
 10	attendre	_	_	_	_	9	xcomp	_	_
 11	_	_	_	_	_	14	_	_	_
-12	au	_	_	_	_	11	advmod:fixed	_	_
+12	au	_	_	_	_	11	case:det	_	_
 13	moins	_	_	_	_	11	fixed	_	_
 14	deux	_	_	_	_	15	nummod	_	_
 15	semaines	_	_	_	_	18	nmod	_	_
@@ -30380,7 +29535,7 @@
 2	perfusion	_	_	_	_	3	nsubj	_	_
 3	agit	_	_	_	_	0	root	_	_
 4	_	_	_	_	_	8	_	_	_
-5	au	_	_	_	_	4	advmod:fixed	_	_
+5	au	_	_	_	_	4	case:det	_	_
 6	moins	_	_	_	_	4	fixed	_	_
 7	un	_	_	_	_	8	det	_	_
 8	an	_	_	_	_	3	obl:mod	_	_
@@ -30425,80 +29580,6 @@
 20	de	_	_	_	_	21	case	_	_
 21	calcium	_	_	_	_	17	conj	_	_
 22	.	_	_	_	_	4	punct	_	_
-
-# sent_id = emea-fr-test_00019
-# text = En outre, les patients souffrant de la maladie de Paget doivent prendre au moins 500 mg de calcium deux fois par jour pendant au moins 10 jours après le traitement et les patients qui ont subi une fracture de la hanche doivent recevoir une large dose de vitamine D (50 000 à 125 000 unités internationales) par voie orale ou par injection intramusculaire avant leur première perfusion.
-1	En	_	_	_	_	12	advmod	_	_
-2	outre	_	_	_	_	1	fixed	_	_
-3	,	_	_	_	_	1	punct	_	_
-4	les	_	_	_	_	5	det	_	_
-5	patients	_	_	_	_	12	nsubj	_	_
-6	souffrant	_	_	_	_	5	acl	_	_
-7	de	_	_	_	_	9	case	_	_
-8	la	_	_	_	_	9	det	_	_
-9	maladie	_	_	_	_	6	obl:arg	_	_
-10	de	_	_	_	_	11	case	_	_
-11	Paget	_	_	_	_	9	nmod	_	_
-12	doivent	_	_	_	_	0	root	_	_
-13	prendre	_	_	_	_	12	xcomp	_	_
-14	_	_	_	_	_	18	_	_	_
-15	au	_	_	_	_	14	advmod:fixed	_	_
-16	moins	_	_	_	_	14	fixed	_	_
-17	500	_	_	_	_	18	nummod	_	_
-18	mg	_	_	_	_	13	obj	_	_
-19	de	_	_	_	_	20	case	_	_
-20	calcium	_	_	_	_	18	nmod	_	_
-21	deux	_	_	_	_	22	nummod	_	_
-22	fois	_	_	_	_	13	obl:mod	_	_
-23	par	_	_	_	_	24	case	_	_
-24	jour	_	_	_	_	22	nmod	_	_
-25	pendant	_	_	_	_	30	case	_	_
-26	_	_	_	_	_	30	_	_	_
-27	au	_	_	_	_	26	advmod:fixed	_	_
-28	moins	_	_	_	_	26	fixed	_	_
-29	10	_	_	_	_	30	nummod	_	_
-30	jours	_	_	_	_	13	obl:mod	_	_
-31	après	_	_	_	_	33	case	_	_
-32	le	_	_	_	_	33	det	_	_
-33	traitement	_	_	_	_	30	nmod	_	_
-34	et	_	_	_	_	45	cc	_	_
-35	les	_	_	_	_	36	det	_	_
-36	patients	_	_	_	_	45	nsubj	_	_
-37	qui	_	_	_	_	39	nsubj	_	_
-38	ont	_	_	_	_	39	aux:tense	_	_
-39	subi	_	_	_	_	36	acl:relcl	_	_
-40	une	_	_	_	_	41	det	_	_
-41	fracture	_	_	_	_	39	obj	_	_
-42	de	_	_	_	_	44	case	_	_
-43	la	_	_	_	_	44	det	_	_
-44	hanche	_	_	_	_	41	nmod	_	_
-45	doivent	_	_	_	_	12	conj	_	_
-46	recevoir	_	_	_	_	45	xcomp	_	_
-47	une	_	_	_	_	49	det	_	_
-48	large	_	_	_	_	49	amod	_	_
-49	dose	_	_	_	_	46	obj	_	_
-50	de	_	_	_	_	51	case	_	_
-51	vitamine	_	_	_	_	49	nmod	_	_
-52	D	_	_	_	_	51	nmod	_	_
-53	(	_	_	_	_	57	punct	_	_
-54	50 000	_	_	_	_	57	det	_	_
-55	à	_	_	_	_	56	dep:comp	_	_
-56	125 000	_	_	_	_	54	obl:arg	_	_
-57	unités	_	_	_	_	49	appos	_	_
-58	internationales	_	_	_	_	57	amod	_	_
-59	)	_	_	_	_	57	punct	_	_
-60	par	_	_	_	_	61	case	_	_
-61	voie	_	_	_	_	46	obl:mod	_	_
-62	orale	_	_	_	_	61	amod	_	_
-63	ou	_	_	_	_	65	cc	_	_
-64	par	_	_	_	_	65	case	_	_
-65	injection	_	_	_	_	61	conj	_	_
-66	intramusculaire	_	_	_	_	65	amod	_	_
-67	avant	_	_	_	_	70	case	_	_
-68	leur	_	_	_	_	70	det	_	_
-69	première	_	_	_	_	70	amod	_	_
-70	perfusion	_	_	_	_	46	obl:mod	_	_
-71	.	_	_	_	_	12	punct	_	_
 
 # sent_id = emea-fr-test_00021
 # text = L'utilisation d'Aclasta n'est pas recommandée chez des patients qui présentent des troubles graves des reins.
@@ -31025,7 +30106,7 @@
 40	redescendu	_	_	_	_	34	conj	_	_
 41	d'	_	_	_	_	46	case	_	_
 42	_	_	_	_	_	46	_	_	_
-43	au	_	_	_	_	42	advmod:fixed	_	_
+43	au	_	_	_	_	42	case:det	_	_
 44	moins	_	_	_	_	42	fixed	_	_
 45	75	_	_	_	_	46	nummod	_	_
 46	%	_	_	_	_	40	obl:arg	_	_
@@ -31134,50 +30215,6 @@
 48	placebo	_	_	_	_	46	nmod	_	_
 49	.	_	_	_	_	16	punct	_	_
 
-# sent_id = emea-fr-test_00042
-# text = Une comparaison de l'ensemble des femmes sous Aclasta (associé ou non à d'autres traitements anti-ostéoporotiques) avec celles sous placebo a fait apparaître une réduction du risque de fracture de la hanche de 41%.
-1	Une	_	_	_	_	2	det	_	_
-2	comparaison	_	_	_	_	27	nsubj:caus	_	_
-3	de	_	_	_	_	5	case	_	_
-4	l'	_	_	_	_	5	det	_	_
-5	ensemble	_	_	_	_	2	nmod	_	_
-6	_	_	_	_	_	8	_	_	_
-7	des	_	_	_	_	8	case:det	_	_
-8	femmes	_	_	_	_	5	nmod	_	_
-9	sous	_	_	_	_	10	case	_	_
-10	Aclasta	_	_	_	_	8	nmod	_	_
-11	(	_	_	_	_	12	punct	_	_
-12	associé	_	_	_	_	10	acl	_	_
-13	ou	_	_	_	_	14	cc	_	_
-14	non	_	_	_	_	12	conj	_	_
-15	à	_	_	_	_	18	case	_	_
-16	d'	_	_	_	_	18	det	_	_
-17	autres	_	_	_	_	18	amod	_	_
-18	traitements	_	_	_	_	12	obl:arg	_	_
-19	anti-ostéoporotiques	_	_	_	_	18	amod	_	_
-20	)	_	_	_	_	12	punct	_	_
-21	avec	_	_	_	_	22	case	_	_
-22	celles	_	_	_	_	2	nmod	_	_
-23	sous	_	_	_	_	24	case	_	_
-24	placebo	_	_	_	_	22	nmod	_	_
-25	a	_	_	_	_	27	aux:tense	_	_
-26	fait	_	_	_	_	27	aux:caus	_	_
-27	apparaître	_	_	_	_	0	root	_	_
-28	une	_	_	_	_	29	det	_	_
-29	réduction	_	_	_	_	27	obj:agent	_	_
-30	_	_	_	_	_	32	_	_	_
-31	du	_	_	_	_	32	case:det	_	_
-32	risque	_	_	_	_	29	nmod	_	_
-33	de	_	_	_	_	34	case	_	_
-34	fracture	_	_	_	_	32	nmod	_	_
-35	de	_	_	_	_	37	case	_	_
-36	la	_	_	_	_	37	det	_	_
-37	hanche	_	_	_	_	34	nmod	_	_
-38	de	_	_	_	_	40	case	_	_
-39	41	_	_	_	_	40	nummod	_	_
-40	%	_	_	_	_	29	nmod	_	_
-41	.	_	_	_	_	27	punct	_	_
-
 # sent_id = emea-fr-test_00043
 # text = Dans une étude portant sur des hommes et des femmes s'étant fracturé la hanche, 9% des patients sous Aclasta ont eu une fracture (92 sur 1 065), contre 13% des patients sous placebo (139 sur 1 062).
 1	Dans	_	_	_	_	3	case	_	_
@@ -31249,51 +30286,6 @@
 17	sous	_	_	_	_	18	case	_	_
 18	Aclasta	_	_	_	_	16	nmod	_	_
 19	.	_	_	_	_	3	punct	_	_
-
-# sent_id = emea-fr-test_00046
-# text = Après six mois, le pourcentage des patients ayant répondu au traitement a été de 95% dans une étude et de 97% dans l'autre, contre 75% et 73% des patients sous risédronate.
-1	Après	_	_	_	_	3	case	_	_
-2	six	_	_	_	_	3	nummod	_	_
-3	mois	_	_	_	_	19	obl:mod	_	_
-4	,	_	_	_	_	3	punct	_	_
-5	le	_	_	_	_	6	det	_	_
-6	pourcentage	_	_	_	_	19	nsubj	_	_
-7	_	_	_	_	_	9	_	_	_
-8	des	_	_	_	_	9	case:det	_	_
-9	patients	_	_	_	_	6	nmod	_	_
-10	ayant	_	_	_	_	11	aux:tense	_	_
-11	répondu	_	_	_	_	9	acl	_	_
-12	_	_	_	_	_	14	_	_	_
-13	au	_	_	_	_	14	case:det	_	_
-14	traitement	_	_	_	_	11	obl:arg	_	_
-15	a	_	_	_	_	19	aux:tense	_	_
-16	été	_	_	_	_	19	cop	_	_
-17	de	_	_	_	_	19	case	_	_
-18	95	_	_	_	_	19	nummod	_	_
-19	%	_	_	_	_	0	root	_	_
-20	dans	_	_	_	_	22	case	_	_
-21	une	_	_	_	_	22	det	_	_
-22	étude	_	_	_	_	19	obl:mod	_	_
-23	et	_	_	_	_	26	cc	_	_
-24	de	_	_	_	_	26	case	_	_
-25	97	_	_	_	_	26	nummod	_	_
-26	%	_	_	_	_	19	conj	_	_
-27	dans	_	_	_	_	29	case	_	_
-28	l'	_	_	_	_	29	det	_	_
-29	autre	_	_	_	_	26	orphan	_	_
-30	,	_	_	_	_	33	punct	_	_
-31	contre	_	_	_	_	33	case	_	_
-32	75	_	_	_	_	33	nummod	_	_
-33	%	_	_	_	_	19	obl:mod	_	_
-34	et	_	_	_	_	36	cc	_	_
-35	73	_	_	_	_	36	nummod	_	_
-36	%	_	_	_	_	33	conj	_	_
-37	_	_	_	_	_	39	_	_	_
-38	des	_	_	_	_	39	case:det	_	_
-39	patients	_	_	_	_	33	nmod	_	_
-40	sous	_	_	_	_	41	case	_	_
-41	risédronate	_	_	_	_	39	nmod	_	_
-42	.	_	_	_	_	19	punct	_	_
 
 # sent_id = emea-fr-test_00047
 # text = Quel est le risque associé à l'utilisation d'Aclasta ?
@@ -32139,7 +31131,7 @@
 34	la	_	_	_	_	35	det	_	_
 35	fracture	_	_	_	_	32	nmod	_	_
 36	(	_	_	_	_	19	punct	_	_
-37	voir	_	_	_	_	19	parataxis:insert	_	_
+37	voir	_	_	_	_	19	parataxis	_	_
 38	rubrique	_	_	_	_	37	obj	_	_
 39	5.1	_	_	_	_	38	nmod	_	_
 40	)	_	_	_	_	19	punct	_	_
@@ -32241,7 +31233,7 @@
 26	d'	_	_	_	_	27	case	_	_
 27	Aclasta	_	_	_	_	25	nmod	_	_
 28	(	_	_	_	_	4	punct	_	_
-29	voir	_	_	_	_	4	parataxis:insert	_	_
+29	voir	_	_	_	_	4	parataxis	_	_
 30	rubrique	_	_	_	_	29	obj	_	_
 31	5.1	_	_	_	_	30	nmod	_	_
 32	)	_	_	_	_	4	punct	_	_
@@ -32411,7 +31403,7 @@
 30	calcium-élément	_	_	_	_	28	nmod	_	_
 31	d'	_	_	_	_	36	case	_	_
 32	_	_	_	_	_	36	_	_	_
-33	au	_	_	_	_	32	advmod:fixed	_	_
+33	au	_	_	_	_	32	case:det	_	_
 34	moins	_	_	_	_	32	fixed	_	_
 35	500	_	_	_	_	36	nummod	_	_
 36	mg	_	_	_	_	28	nmod	_	_
@@ -32422,7 +31414,7 @@
 41	,	_	_	_	_	48	punct	_	_
 42	pendant	_	_	_	_	48	case	_	_
 43	_	_	_	_	_	48	_	_	_
-44	au	_	_	_	_	43	advmod:fixed	_	_
+44	au	_	_	_	_	43	case:det	_	_
 45	moins	_	_	_	_	43	fixed	_	_
 46	les	_	_	_	_	48	det	_	_
 47	10	_	_	_	_	48	nummod	_	_
@@ -32433,60 +31425,11 @@
 52	d'	_	_	_	_	53	case	_	_
 53	Aclasta	_	_	_	_	51	nmod	_	_
 54	(	_	_	_	_	17	punct	_	_
-55	voir	_	_	_	_	17	parataxis:insert	_	_
+55	voir	_	_	_	_	17	parataxis	_	_
 56	rubrique	_	_	_	_	55	obj	_	_
 57	4.4	_	_	_	_	56	nmod	_	_
 58	)	_	_	_	_	17	punct	_	_
 59	.	_	_	_	_	17	punct	_	_
-
-# sent_id = emea-fr-test_00095
-# text = Chez les patients ayant eu une fracture de hanche récente secondaire à un traumatisme modéré, il est recommandé d'administrer une dose de charge de 50 000 à 125 000 UI de vitamine D par voie orale ou intramusculaire, avant la 1ère perfusion d'Aclasta.
-1	Chez	_	_	_	_	3	case	_	_
-2	les	_	_	_	_	3	det	_	_
-3	patients	_	_	_	_	19	obl:mod	_	_
-4	ayant	_	_	_	_	5	aux:tense	_	_
-5	eu	_	_	_	_	3	acl	_	_
-6	une	_	_	_	_	7	det	_	_
-7	fracture	_	_	_	_	5	obj	_	_
-8	de	_	_	_	_	9	case	_	_
-9	hanche	_	_	_	_	7	nmod	_	_
-10	récente	_	_	_	_	7	amod	_	_
-11	secondaire	_	_	_	_	7	amod	_	_
-12	à	_	_	_	_	14	case	_	_
-13	un	_	_	_	_	14	det	_	_
-14	traumatisme	_	_	_	_	11	obl:arg	_	_
-15	modéré	_	_	_	_	14	amod	_	_
-16	,	_	_	_	_	3	punct	_	_
-17	il	_	_	_	_	19	expl:subj	_	_
-18	est	_	_	_	_	19	aux:pass	_	_
-19	recommandé	_	_	_	_	0	root	_	_
-20	d'	_	_	_	_	21	mark	_	_
-21	administrer	_	_	_	_	19	ccomp	_	_
-22	une	_	_	_	_	23	det	_	_
-23	dose	_	_	_	_	21	obj	_	_
-24	de	_	_	_	_	25	case	_	_
-25	charge	_	_	_	_	23	nmod	_	_
-26	de	_	_	_	_	30	case	_	_
-27	50 000	_	_	_	_	30	det	_	_
-28	à	_	_	_	_	29	dep:comp	_	_
-29	125 000	_	_	_	_	27	obl:arg	_	_
-30	UI	_	_	_	_	23	nmod	_	_
-31	de	_	_	_	_	32	case	_	_
-32	vitamine	_	_	_	_	30	nmod	_	_
-33	D	_	_	_	_	32	nmod	_	_
-34	par	_	_	_	_	35	case	_	_
-35	voie	_	_	_	_	21	obl:mod	_	_
-36	orale	_	_	_	_	35	amod	_	_
-37	ou	_	_	_	_	38	cc	_	_
-38	intramusculaire	_	_	_	_	36	conj	_	_
-39	,	_	_	_	_	43	punct	_	_
-40	avant	_	_	_	_	43	case	_	_
-41	la	_	_	_	_	43	det	_	_
-42	1ère	_	_	_	_	43	amod	_	_
-43	perfusion	_	_	_	_	21	obl:mod	_	_
-44	d'	_	_	_	_	45	case	_	_
-45	Aclasta	_	_	_	_	43	nmod	_	_
-46	.	_	_	_	_	19	punct	_	_
 
 # sent_id = emea-fr-test_00096
 # text = L'incidence des effets indésirables survenant dans les trois premiers jours suivant l'administration d'Aclasta peut être diminuée en administrant du paracétamol ou de l'ibuprofène après l'administration d'Aclasta.
@@ -32531,7 +31474,7 @@
 2	insuffisants	_	_	_	_	1	amod	_	_
 3	rénaux	_	_	_	_	2	amod	_	_
 4	(	_	_	_	_	5	punct	_	_
-5	voir	_	_	_	_	1	parataxis:insert	_	_
+5	voir	_	_	_	_	1	parataxis	_	_
 6	rubrique	_	_	_	_	5	obj	_	_
 7	4.4	_	_	_	_	6	nmod	_	_
 8	)	_	_	_	_	5	punct	_	_
@@ -32616,7 +31559,7 @@
 7	est	_	_	_	_	8	cop	_	_
 8	nécessaire	_	_	_	_	0	root	_	_
 9	(	_	_	_	_	10	punct	_	_
-10	voir	_	_	_	_	8	parataxis:insert	_	_
+10	voir	_	_	_	_	8	parataxis	_	_
 11	rubrique	_	_	_	_	10	obj	_	_
 12	5.2	_	_	_	_	11	nmod	_	_
 13	)	_	_	_	_	10	punct	_	_
@@ -32737,7 +31680,7 @@
 8	une	_	_	_	_	9	det	_	_
 9	hypocalcémie	_	_	_	_	7	obj	_	_
 10	(	_	_	_	_	3	punct	_	_
-11	voir	_	_	_	_	3	parataxis:insert	_	_
+11	voir	_	_	_	_	3	parataxis	_	_
 12	rubrique	_	_	_	_	11	obj	_	_
 13	4.4	_	_	_	_	12	nmod	_	_
 14	)	_	_	_	_	3	punct	_	_
@@ -32756,7 +31699,7 @@
 9	qui	_	_	_	_	10	nsubj	_	_
 10	allaite	_	_	_	_	7	conj	_	_
 11	(	_	_	_	_	3	punct	_	_
-12	voir	_	_	_	_	3	parataxis:insert	_	_
+12	voir	_	_	_	_	3	parataxis	_	_
 13	rubrique	_	_	_	_	12	obj	_	_
 14	4.6	_	_	_	_	13	nmod	_	_
 15	)	_	_	_	_	3	punct	_	_
@@ -32777,7 +31720,7 @@
 11	administrée	_	_	_	_	9	xcomp	_	_
 12	pendant	_	_	_	_	17	case	_	_
 13	_	_	_	_	_	17	_	_	_
-14	au	_	_	_	_	13	advmod:fixed	_	_
+14	au	_	_	_	_	13	case:det	_	_
 15	moins	_	_	_	_	13	fixed	_	_
 16	15	_	_	_	_	17	nummod	_	_
 17	minutes	_	_	_	_	11	obl:mod	_	_
@@ -32894,7 +31837,7 @@
 35	déshydratation	_	_	_	_	33	obj	_	_
 36	)	_	_	_	_	28	punct	_	_
 37	,	_	_	_	_	4	punct	_	_
-38	voir	_	_	_	_	4	parataxis:insert	_	_
+38	voir	_	_	_	_	4	parataxis	_	_
 39	rubrique	_	_	_	_	38	obj	_	_
 40	4.5	_	_	_	_	39	nmod	_	_
 41	.	_	_	_	_	4	punct	_	_
@@ -32926,7 +31869,7 @@
 23	par	_	_	_	_	24	case	_	_
 24	Aclasta	_	_	_	_	22	nmod	_	_
 25	(	_	_	_	_	26	punct	_	_
-26	voir	_	_	_	_	4	parataxis:insert	_	_
+26	voir	_	_	_	_	4	parataxis	_	_
 27	rubrique	_	_	_	_	26	obj	_	_
 28	4.3	_	_	_	_	27	nmod	_	_
 29	)	_	_	_	_	26	punct	_	_
@@ -33044,7 +31987,7 @@
 42	d'	_	_	_	_	43	case	_	_
 43	Aclasta	_	_	_	_	41	nmod	_	_
 44	(	_	_	_	_	45	punct	_	_
-45	voir	_	_	_	_	25	parataxis:insert	_	_
+45	voir	_	_	_	_	25	parataxis	_	_
 46	rubrique	_	_	_	_	45	obj	_	_
 47	4.8	_	_	_	_	46	nmod	_	_
 48	)	_	_	_	_	45	punct	_	_
@@ -33083,7 +32026,7 @@
 29	calcium-élément	_	_	_	_	27	nmod	_	_
 30	d'	_	_	_	_	35	case	_	_
 31	_	_	_	_	_	35	_	_	_
-32	au	_	_	_	_	31	advmod:fixed	_	_
+32	au	_	_	_	_	31	case:det	_	_
 33	moins	_	_	_	_	31	fixed	_	_
 34	500	_	_	_	_	35	nummod	_	_
 35	mg	_	_	_	_	27	nmod	_	_
@@ -33093,7 +32036,7 @@
 39	jour	_	_	_	_	37	nmod	_	_
 40	pendant	_	_	_	_	46	case	_	_
 41	_	_	_	_	_	46	_	_	_
-42	au	_	_	_	_	41	advmod:fixed	_	_
+42	au	_	_	_	_	41	case:det	_	_
 43	moins	_	_	_	_	41	fixed	_	_
 44	les	_	_	_	_	46	det	_	_
 45	10	_	_	_	_	46	nummod	_	_
@@ -33104,7 +32047,7 @@
 50	d'	_	_	_	_	51	case	_	_
 51	Aclasta	_	_	_	_	49	nmod	_	_
 52	(	_	_	_	_	16	punct	_	_
-53	voir	_	_	_	_	16	parataxis:insert	_	_
+53	voir	_	_	_	_	16	parataxis	_	_
 54	rubrique	_	_	_	_	53	obj	_	_
 55	4.2	_	_	_	_	54	nmod	_	_
 56	)	_	_	_	_	16	punct	_	_
@@ -33526,7 +32469,7 @@
 23	in	_	_	_	_	20	amod	_	_
 24	vitro	_	_	_	_	23	fixed	_	_
 25	(	_	_	_	_	26	punct	_	_
-26	voir	_	_	_	_	7	parataxis:insert	_	_
+26	voir	_	_	_	_	7	parataxis	_	_
 27	rubrique	_	_	_	_	26	obj	_	_
 28	5.2	_	_	_	_	27	nmod	_	_
 29	)	_	_	_	_	26	punct	_	_
@@ -33683,7 +32626,7 @@
 22	des	_	_	_	_	23	det	_	_
 23	malformations	_	_	_	_	16	acl:relcl	_	_
 24	(	_	_	_	_	12	punct	_	_
-25	voir	_	_	_	_	12	parataxis:insert	_	_
+25	voir	_	_	_	_	12	parataxis	_	_
 26	rubrique	_	_	_	_	25	obj	_	_
 27	5.3	_	_	_	_	26	nmod	_	_
 28	)	_	_	_	_	12	punct	_	_
@@ -33737,7 +32680,7 @@
 11	qui	_	_	_	_	12	nsubj	_	_
 12	allaite	_	_	_	_	10	acl:relcl	_	_
 13	(	_	_	_	_	3	punct	_	_
-14	voir	_	_	_	_	3	parataxis:insert	_	_
+14	voir	_	_	_	_	3	parataxis	_	_
 15	rubrique	_	_	_	_	14	obj	_	_
 16	4.3	_	_	_	_	15	nmod	_	_
 17	)	_	_	_	_	3	punct	_	_
@@ -33821,32 +32764,32 @@
 13	fièvre	_	_	_	_	0	root	_	_
 14	(	_	_	_	_	16	punct	_	_
 15	17,1	_	_	_	_	16	nummod	_	_
-16	%	_	_	_	_	13	parataxis:insert	_	_
+16	%	_	_	_	_	13	parataxis	_	_
 17	)	_	_	_	_	16	punct	_	_
 18	,	_	_	_	_	19	punct	_	_
 19	myalgie	_	_	_	_	13	conj	_	_
 20	(	_	_	_	_	22	punct	_	_
 21	7,8	_	_	_	_	22	nummod	_	_
-22	%	_	_	_	_	19	parataxis:insert	_	_
+22	%	_	_	_	_	19	parataxis	_	_
 23	)	_	_	_	_	22	punct	_	_
 24	,	_	_	_	_	25	punct	_	_
 25	syndrome	_	_	_	_	13	conj	_	_
 26	pseudo-grippal	_	_	_	_	25	amod	_	_
 27	(	_	_	_	_	29	punct	_	_
 28	6,7	_	_	_	_	29	nummod	_	_
-29	%	_	_	_	_	25	parataxis:insert	_	_
+29	%	_	_	_	_	25	parataxis	_	_
 30	)	_	_	_	_	29	punct	_	_
 31	,	_	_	_	_	32	punct	_	_
 32	arthralgie	_	_	_	_	13	conj	_	_
 33	(	_	_	_	_	35	punct	_	_
 34	4,8	_	_	_	_	35	nummod	_	_
-35	%	_	_	_	_	32	parataxis:insert	_	_
+35	%	_	_	_	_	32	parataxis	_	_
 36	)	_	_	_	_	35	punct	_	_
 37	et	_	_	_	_	38	cc	_	_
 38	céphalée	_	_	_	_	13	conj	_	_
 39	(	_	_	_	_	41	punct	_	_
 40	5,1	_	_	_	_	41	nummod	_	_
-41	%	_	_	_	_	38	parataxis:insert	_	_
+41	%	_	_	_	_	38	parataxis	_	_
 42	)	_	_	_	_	41	punct	_	_
 43	.	_	_	_	_	13	punct	_	_
 
@@ -33993,7 +32936,7 @@
 32	d'	_	_	_	_	33	case	_	_
 33	Aclasta	_	_	_	_	31	nmod	_	_
 34	(	_	_	_	_	35	punct	_	_
-35	voir	_	_	_	_	17	parataxis:insert	_	_
+35	voir	_	_	_	_	17	parataxis	_	_
 36	rubrique	_	_	_	_	35	obj	_	_
 37	4.2	_	_	_	_	36	nmod	_	_
 38	)	_	_	_	_	35	punct	_	_
@@ -34151,7 +33094,7 @@
 28	Aclasta	_	_	_	_	27	nmod	_	_
 29	(	_	_	_	_	31	punct	_	_
 30	2,6	_	_	_	_	31	nummod	_	_
-31	%	_	_	_	_	27	parataxis:insert	_	_
+31	%	_	_	_	_	27	parataxis	_	_
 32	)	_	_	_	_	31	punct	_	_
 33	et	_	_	_	_	35	cc	_	_
 34	le	_	_	_	_	35	det	_	_
@@ -34160,7 +33103,7 @@
 37	(	_	_	_	_	35	punct	_	_
 38	2,1	_	_	_	_	40	nummod	_	_
 39	)	_	_	_	_	40	punct	_	_
-40	%	_	_	_	_	35	parataxis:insert	_	_
+40	%	_	_	_	_	35	parataxis	_	_
 41	.	_	_	_	_	24	punct	_	_
 
 # sent_id = emea-fr-test_00158
@@ -34203,12 +33146,12 @@
 4	très	_	_	_	_	5	advmod	_	_
 5	fréquents	_	_	_	_	2	amod	_	_
 6	(	_	_	_	_	7	punct	_	_
-7	1/10	_	_	_	_	5	parataxis:insert	_	_
+7	1/10	_	_	_	_	5	parataxis	_	_
 8	)	_	_	_	_	7	punct	_	_
 9	,	_	_	_	_	10	punct	_	_
 10	fréquents	_	_	_	_	5	conj	_	_
 11	(	_	_	_	_	12	punct	_	_
-12	1/100	_	_	_	_	10	parataxis:insert	_	_
+12	1/100	_	_	_	_	10	parataxis	_	_
 13	,	_	_	_	_	15	punct	_	_
 14	<	_	_	_	_	15	case	_	_
 15	1/10	_	_	_	_	12	conj	_	_
@@ -34217,7 +33160,7 @@
 18	peu	_	_	_	_	19	advmod	_	_
 19	fréquents	_	_	_	_	5	conj	_	_
 20	(	_	_	_	_	21	punct	_	_
-21	1/1000	_	_	_	_	19	parataxis:insert	_	_
+21	1/1000	_	_	_	_	19	parataxis	_	_
 22	,	_	_	_	_	24	punct	_	_
 23	<	_	_	_	_	24	case	_	_
 24	1/100	_	_	_	_	21	conj	_	_
@@ -34225,7 +33168,7 @@
 26	et	_	_	_	_	27	cc	_	_
 27	rares	_	_	_	_	5	conj	_	_
 28	(	_	_	_	_	29	punct	_	_
-29	1	_	_	_	_	27	parataxis:insert	_	_
+29	1	_	_	_	_	27	parataxis	_	_
 30	/	_	_	_	_	29	advmod	_	_
 31	10 000	_	_	_	_	30	obj	_	_
 32	,	_	_	_	_	34	punct	_	_
@@ -34367,49 +33310,6 @@
 3	la	_	_	_	_	4	det	_	_
 4	fonction	_	_	_	_	1	nmod	_	_
 5	rénale	_	_	_	_	4	amod	_	_
-
-# sent_id = emea-fr-test_00169
-# text = L'acide zolédronique a été associé à une anomalie de la fonction rénale se manifestant sous forme d'une détérioration de la fonction rénale (c-à-d. augmentation de la créatininémie) et dans de rares cas insuffisance rénale aiguë.
-1	L'	_	_	_	_	2	det	_	_
-2	acide	_	_	_	_	6	nsubj:pass	_	_
-3	zolédronique	_	_	_	_	2	amod	_	_
-4	a	_	_	_	_	6	aux:tense	_	_
-5	été	_	_	_	_	6	aux:pass	_	_
-6	associé	_	_	_	_	0	root	_	_
-7	à	_	_	_	_	9	case	_	_
-8	une	_	_	_	_	9	det	_	_
-9	anomalie	_	_	_	_	6	obl:arg	_	_
-10	de	_	_	_	_	12	case	_	_
-11	la	_	_	_	_	12	det	_	_
-12	fonction	_	_	_	_	9	nmod	_	_
-13	rénale	_	_	_	_	12	amod	_	_
-14	se	_	_	_	_	15	expl:pass	_	_
-15	manifestant	_	_	_	_	9	acl	_	_
-16	sous	_	_	_	_	17	case	_	_
-17	forme	_	_	_	_	15	obl:arg	_	_
-18	d'	_	_	_	_	20	case	_	_
-19	une	_	_	_	_	20	det	_	_
-20	détérioration	_	_	_	_	17	nmod	_	_
-21	de	_	_	_	_	23	case	_	_
-22	la	_	_	_	_	23	det	_	_
-23	fonction	_	_	_	_	20	nmod	_	_
-24	rénale	_	_	_	_	23	amod	_	_
-25	(	_	_	_	_	20	punct	_	_
-26	c-à-d.	_	_	_	_	27	cc	_	_
-27	augmentation	_	_	_	_	20	conj	_	_
-28	de	_	_	_	_	30	case	_	_
-29	la	_	_	_	_	30	det	_	_
-30	créatininémie	_	_	_	_	27	nmod	_	_
-31	)	_	_	_	_	20	punct	_	_
-32	et	_	_	_	_	37	cc	_	_
-33	dans	_	_	_	_	36	case	_	_
-34	de	_	_	_	_	36	det	_	_
-35	rares	_	_	_	_	36	amod	_	_
-36	cas	_	_	_	_	37	orphan	_	_
-37	insuffisance	_	_	_	_	20	conj	_	_
-38	rénale	_	_	_	_	37	amod	_	_
-39	aiguë	_	_	_	_	37	amod	_	_
-40	.	_	_	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00170
 # text = Une insuffisance rénale a été observée après l'administration d'acide zolédronique, en particulier chez les patients présentant une altération rénale préexistante ou des facteurs de risque supplémentaires (par exemple, chimiothérapie anticancéreuse, médicaments néphrotoxiques concomitants, déshydratation sévère, etc.).
@@ -34828,7 +33728,7 @@
 54	de	_	_	_	_	55	case	_	_
 55	Paget	_	_	_	_	53	nmod	_	_
 56	(	_	_	_	_	5	punct	_	_
-57	voir	_	_	_	_	5	parataxis:insert	_	_
+57	voir	_	_	_	_	5	parataxis	_	_
 58	également	_	_	_	_	57	advmod	_	_
 59	rubrique	_	_	_	_	57	obj	_	_
 60	4.2	_	_	_	_	59	nmod	_	_
@@ -34877,7 +33777,7 @@
 38	façon	_	_	_	_	36	obl:mod	_	_
 39	systématique	_	_	_	_	38	amod	_	_
 40	(	_	_	_	_	12	punct	_	_
-41	voir	_	_	_	_	12	parataxis:insert	_	_
+41	voir	_	_	_	_	12	parataxis	_	_
 42	rubrique	_	_	_	_	41	obj	_	_
 43	4.2	_	_	_	_	42	nmod	_	_
 44	)	_	_	_	_	12	punct	_	_
@@ -35061,7 +33961,7 @@
 22	être	_	_	_	_	23	aux:pass	_	_
 23	retardée	_	_	_	_	21	xcomp	_	_
 24	(	_	_	_	_	25	punct	_	_
-25	voir	_	_	_	_	12	parataxis:insert	_	_
+25	voir	_	_	_	_	12	parataxis	_	_
 26	rubrique	_	_	_	_	25	obj	_	_
 27	4.4	_	_	_	_	26	nmod	_	_
 28	)	_	_	_	_	25	punct	_	_
@@ -35282,33 +34182,6 @@
 18	élevés	_	_	_	_	16	amod	_	_
 19	.	_	_	_	_	5	punct	_	_
 
-# sent_id = emea-fr-test_00203
-# text = Les valeurs minimales s'observent après 7 jours pour les marqueurs de résorption, et après 12 semaines pour les marqueurs de formation.
-1	Les	_	_	_	_	2	det	_	_
-2	valeurs	_	_	_	_	5	nsubj:pass	_	_
-3	minimales	_	_	_	_	2	amod	_	_
-4	s'	_	_	_	_	5	expl:pass	_	_
-5	observent	_	_	_	_	0	root	_	_
-6	après	_	_	_	_	8	case	_	_
-7	7	_	_	_	_	8	nummod	_	_
-8	jours	_	_	_	_	5	obl:mod	_	_
-9	pour	_	_	_	_	11	case	_	_
-10	les	_	_	_	_	11	det	_	_
-11	marqueurs	_	_	_	_	5	obl:mod	_	_
-12	de	_	_	_	_	13	case	_	_
-13	résorption	_	_	_	_	11	nmod	_	_
-14	,	_	_	_	_	18	punct	_	_
-15	et	_	_	_	_	18	cc	_	_
-16	après	_	_	_	_	18	case	_	_
-17	12	_	_	_	_	18	nummod	_	_
-18	semaines	_	_	_	_	5	conj	_	_
-19	pour	_	_	_	_	21	case	_	_
-20	les	_	_	_	_	21	det	_	_
-21	marqueurs	_	_	_	_	18	orphan	_	_
-22	de	_	_	_	_	23	case	_	_
-23	formation	_	_	_	_	21	nmod	_	_
-24	.	_	_	_	_	5	punct	_	_
-
 # sent_id = emea-fr-test_00204
 # text = Ensuite, les marqueurs osseux se stabilisent dans la gamme des valeurs pré-ménopausiques.
 1	Ensuite	_	_	_	_	7	advmod	_	_
@@ -35426,7 +34299,7 @@
 57	-1,5	_	_	_	_	50	nmod	_	_
 58	et	_	_	_	_	63	cc	_	_
 59	_	_	_	_	_	63	_	_	_
-60	au	_	_	_	_	59	advmod:fixed	_	_
+60	au	_	_	_	_	59	case:det	_	_
 61	moins	_	_	_	_	59	fixed	_	_
 62	deux	_	_	_	_	63	nummod	_	_
 63	fractures	_	_	_	_	41	conj	_	_
@@ -35563,42 +34436,6 @@
 5	vertébrales	_	_	_	_	4	amod	_	_
 6	morphométriques	_	_	_	_	4	amod	_	_
 
-# sent_id = emea-fr-test_00213
-# text = Aclasta a réduit significativement l'incidence d'une nouvelle fracture vertébrale ou plus, sur une période de trois ans, et ceci dès la première année (voir Tableau 2).
-1	Aclasta	_	_	_	_	3	nsubj	_	_
-2	a	_	_	_	_	3	aux:tense	_	_
-3	réduit	_	_	_	_	0	root	_	_
-4	significativement	_	_	_	_	3	advmod	_	_
-5	l'	_	_	_	_	6	det	_	_
-6	incidence	_	_	_	_	3	obj	_	_
-7	d'	_	_	_	_	10	case	_	_
-8	une	_	_	_	_	10	det	_	_
-9	nouvelle	_	_	_	_	10	amod	_	_
-10	fracture	_	_	_	_	6	nmod	_	_
-11	vertébrale	_	_	_	_	10	amod	_	_
-12	ou	_	_	_	_	13	cc	_	_
-13	plus	_	_	_	_	10	conj	_	_
-14	,	_	_	_	_	17	punct	_	_
-15	sur	_	_	_	_	17	case	_	_
-16	une	_	_	_	_	17	det	_	_
-17	période	_	_	_	_	3	obl:mod	_	_
-18	de	_	_	_	_	20	case	_	_
-19	trois	_	_	_	_	20	nummod	_	_
-20	ans	_	_	_	_	17	nmod	_	_
-21	,	_	_	_	_	23	punct	_	_
-22	et	_	_	_	_	23	cc	_	_
-23	ceci	_	_	_	_	3	conj	_	_
-24	dès	_	_	_	_	27	case	_	_
-25	la	_	_	_	_	27	det	_	_
-26	première	_	_	_	_	27	amod	_	_
-27	année	_	_	_	_	23	orphan	_	_
-28	(	_	_	_	_	29	punct	_	_
-29	voir	_	_	_	_	3	parataxis:insert	_	_
-30	Tableau	_	_	_	_	29	obj	_	_
-31	2	_	_	_	_	30	nmod	_	_
-32	)	_	_	_	_	29	punct	_	_
-33	.	_	_	_	_	3	punct	_	_
-
 # sent_id = emea-fr-test_00214
 # text = Résultat Placebo
 1	Résultat	_	_	_	_	0	root	_	_
@@ -35620,7 +34457,7 @@
 # sent_id = emea-fr-test_00216
 # text = Au moins une nouvelle fracture vertébrale (0-1 an)
 1	_	_	_	_	_	6	_	_	_
-2	Au	_	_	_	_	1	advmod:fixed	_	_
+2	Au	_	_	_	_	1	case:det	_	_
 3	moins	_	_	_	_	1	fixed	_	_
 4	une	_	_	_	_	6	det	_	_
 5	nouvelle	_	_	_	_	6	amod	_	_
@@ -35628,13 +34465,13 @@
 7	vertébrale	_	_	_	_	6	amod	_	_
 8	(	_	_	_	_	10	punct	_	_
 9	0-1	_	_	_	_	10	nummod	_	_
-10	an	_	_	_	_	6	parataxis:insert	_	_
+10	an	_	_	_	_	6	parataxis	_	_
 11	)	_	_	_	_	10	punct	_	_
 
 # sent_id = emea-fr-test_00217
 # text = Au moins une nouvelle fracture vertébrale (0-2 ans)
 1	_	_	_	_	_	6	_	_	_
-2	Au	_	_	_	_	1	advmod:fixed	_	_
+2	Au	_	_	_	_	1	case:det	_	_
 3	moins	_	_	_	_	1	fixed	_	_
 4	une	_	_	_	_	6	det	_	_
 5	nouvelle	_	_	_	_	6	amod	_	_
@@ -35642,13 +34479,13 @@
 7	vertébrale	_	_	_	_	6	amod	_	_
 8	(	_	_	_	_	10	punct	_	_
 9	0-2	_	_	_	_	10	nummod	_	_
-10	ans	_	_	_	_	6	parataxis:insert	_	_
+10	ans	_	_	_	_	6	parataxis	_	_
 11	)	_	_	_	_	10	punct	_	_
 
 # sent_id = emea-fr-test_00218
 # text = Au moins une nouvelle fracture vertébrale (0-3 ans)
 1	_	_	_	_	_	6	_	_	_
-2	Au	_	_	_	_	1	advmod:fixed	_	_
+2	Au	_	_	_	_	1	case:det	_	_
 3	moins	_	_	_	_	1	fixed	_	_
 4	une	_	_	_	_	6	det	_	_
 5	nouvelle	_	_	_	_	6	amod	_	_
@@ -35656,7 +34493,7 @@
 7	vertébrale	_	_	_	_	6	amod	_	_
 8	(	_	_	_	_	10	punct	_	_
 9	0-3	_	_	_	_	10	nummod	_	_
-10	ans	_	_	_	_	6	parataxis:insert	_	_
+10	ans	_	_	_	_	6	parataxis	_	_
 11	)	_	_	_	_	10	punct	_	_
 
 # sent_id = emea-fr-test_00219
@@ -35697,7 +34534,7 @@
 34	placebo	_	_	_	_	32	nmod	_	_
 35	(	_	_	_	_	27	punct	_	_
 36	p	_	_	_	_	37	nsubj	_	_
-37	<	_	_	_	_	27	parataxis:insert	_	_
+37	<	_	_	_	_	27	parataxis	_	_
 38	0,0001	_	_	_	_	37	obj	_	_
 39	)	_	_	_	_	27	punct	_	_
 40	.	_	_	_	_	27	punct	_	_
@@ -35738,7 +34575,7 @@
 23	3	_	_	_	_	24	nummod	_	_
 24	ans	_	_	_	_	21	nmod	_	_
 25	(	_	_	_	_	26	punct	_	_
-26	IC	_	_	_	_	16	parataxis:insert	_	_
+26	IC	_	_	_	_	16	parataxis	_	_
 27	à	_	_	_	_	29	case	_	_
 28	95	_	_	_	_	29	nummod	_	_
 29	%	_	_	_	_	26	nmod	_	_
@@ -35984,64 +34821,6 @@
 39	)	_	_	_	_	38	punct	_	_
 40	.	_	_	_	_	9	punct	_	_
 
-# sent_id = emea-fr-test_00234
-# text = Sur une période de 3 ans l'augmentation de la DMO du groupe Aclasta par rapport au groupe placebo a été de 6,7% au rachis lombaire, de 6,0% au fémur total, de 5,1% au col fémoral et de 3,2% au radius distal.
-1	Sur	_	_	_	_	3	case	_	_
-2	une	_	_	_	_	3	det	_	_
-3	période	_	_	_	_	26	obl:mod	_	_
-4	de	_	_	_	_	6	case	_	_
-5	3	_	_	_	_	6	nummod	_	_
-6	ans	_	_	_	_	3	nmod	_	_
-7	l'	_	_	_	_	8	det	_	_
-8	augmentation	_	_	_	_	26	nsubj	_	_
-9	de	_	_	_	_	11	case	_	_
-10	la	_	_	_	_	11	det	_	_
-11	DMO	_	_	_	_	8	nmod	_	_
-12	_	_	_	_	_	14	_	_	_
-13	du	_	_	_	_	14	case:det	_	_
-14	groupe	_	_	_	_	11	nmod	_	_
-15	Aclasta	_	_	_	_	14	nmod	_	_
-16	par	_	_	_	_	17	case	_	_
-17	rapport	_	_	_	_	8	nmod	_	_
-18	_	_	_	_	_	20	_	_	_
-19	au	_	_	_	_	20	case:det	_	_
-20	groupe	_	_	_	_	17	nmod	_	_
-21	placebo	_	_	_	_	20	nmod	_	_
-22	a	_	_	_	_	26	aux:tense	_	_
-23	été	_	_	_	_	26	cop	_	_
-24	de	_	_	_	_	26	case	_	_
-25	6,7	_	_	_	_	26	nummod	_	_
-26	%	_	_	_	_	0	root	_	_
-27	_	_	_	_	_	29	_	_	_
-28	au	_	_	_	_	29	case:det	_	_
-29	rachis	_	_	_	_	26	obl:mod	_	_
-30	lombaire	_	_	_	_	29	amod	_	_
-31	,	_	_	_	_	34	punct	_	_
-32	de	_	_	_	_	34	case	_	_
-33	6,0	_	_	_	_	34	nummod	_	_
-34	%	_	_	_	_	26	conj	_	_
-35	_	_	_	_	_	37	_	_	_
-36	au	_	_	_	_	37	case:det	_	_
-37	fémur	_	_	_	_	34	orphan	_	_
-38	total	_	_	_	_	37	amod	_	_
-39	,	_	_	_	_	42	punct	_	_
-40	de	_	_	_	_	42	case	_	_
-41	5,1	_	_	_	_	42	nummod	_	_
-42	%	_	_	_	_	26	conj	_	_
-43	_	_	_	_	_	45	_	_	_
-44	au	_	_	_	_	45	case:det	_	_
-45	col	_	_	_	_	42	orphan	_	_
-46	fémoral	_	_	_	_	45	amod	_	_
-47	et	_	_	_	_	50	cc	_	_
-48	de	_	_	_	_	50	case	_	_
-49	3,2	_	_	_	_	50	nummod	_	_
-50	%	_	_	_	_	26	conj	_	_
-51	_	_	_	_	_	53	_	_	_
-52	au	_	_	_	_	53	case:det	_	_
-53	radius	_	_	_	_	50	orphan	_	_
-54	distal	_	_	_	_	53	amod	_	_
-55	.	_	_	_	_	26	punct	_	_
-
 # sent_id = emea-fr-test_00235
 # text = Histologie osseuse
 1	Histologie	_	_	_	_	0	root	_	_
@@ -36084,13 +34863,13 @@
 33	par	_	_	_	_	34	case	_	_
 34	Aclasta	_	_	_	_	32	obl:mod	_	_
 35	(	_	_	_	_	36	punct	_	_
-36	N=82	_	_	_	_	34	parataxis:insert	_	_
+36	N=82	_	_	_	_	34	parataxis	_	_
 37	)	_	_	_	_	36	punct	_	_
 38	ou	_	_	_	_	40	cc	_	_
 39	par	_	_	_	_	40	case	_	_
 40	placebo	_	_	_	_	34	conj	_	_
 41	(	_	_	_	_	42	punct	_	_
-42	N=70	_	_	_	_	40	parataxis:insert	_	_
+42	N=70	_	_	_	_	40	parataxis	_	_
 43	)	_	_	_	_	42	punct	_	_
 44	.	_	_	_	_	17	punct	_	_
 
@@ -36432,7 +35211,7 @@
 19	placebo	_	_	_	_	16	nmod	_	_
 20	(	_	_	_	_	22	punct	_	_
 21	(	_	_	_	_	22	punct	_	_
-22	IC	_	_	_	_	5	parataxis:insert	_	_
+22	IC	_	_	_	_	5	parataxis	_	_
 23	à	_	_	_	_	25	case	_	_
 24	95	_	_	_	_	25	nummod	_	_
 25	%	_	_	_	_	22	nmod	_	_
@@ -36534,7 +35313,7 @@
 35	placebo	_	_	_	_	34	nmod	_	_
 36	(	_	_	_	_	4	punct	_	_
 37	p	_	_	_	_	38	nsubj	_	_
-38	<	_	_	_	_	4	parataxis:insert	_	_
+38	<	_	_	_	_	4	parataxis	_	_
 39	0,01	_	_	_	_	38	obj	_	_
 40	pour	_	_	_	_	43	case	_	_
 41	toutes	_	_	_	_	43	amod	_	_
@@ -36688,7 +35467,7 @@
 7	par	_	_	_	_	8	case	_	_
 8	an	_	_	_	_	6	nmod	_	_
 9	_	_	_	_	_	4	_	_	_
-10	au	_	_	_	_	9	advmod:fixed	_	_
+10	au	_	_	_	_	9	case:det	_	_
 11	moins	_	_	_	_	9	fixed	_	_
 12	jusqu'	_	_	_	_	14	case	_	_
 13	à	_	_	_	_	14	case	_	_
@@ -36928,7 +35707,7 @@
 15	confondues	_	_	_	_	2	advcl	_	_
 16	(	_	_	_	_	18	punct	_	_
 17	p	_	_	_	_	18	nsubj	_	_
-18	=	_	_	_	_	2	parataxis:insert	_	_
+18	=	_	_	_	_	2	parataxis	_	_
 19	0,01	_	_	_	_	18	obj	_	_
 20	)	_	_	_	_	18	punct	_	_
 21	.	_	_	_	_	2	punct	_	_
@@ -36953,7 +35732,7 @@
 16	entre	_	_	_	_	17	case	_	_
 17	Aclasta	_	_	_	_	15	obl:mod	_	_
 18	(	_	_	_	_	19	punct	_	_
-19	34	_	_	_	_	17	parataxis:insert	_	_
+19	34	_	_	_	_	17	parataxis	_	_
 20	[	_	_	_	_	22	punct	_	_
 21	3,2	_	_	_	_	22	nummod	_	_
 22	%	_	_	_	_	19	appos	_	_
@@ -36963,7 +35742,7 @@
 26	le	_	_	_	_	27	det	_	_
 27	placebo	_	_	_	_	17	conj	_	_
 28	(	_	_	_	_	29	punct	_	_
-29	29	_	_	_	_	27	parataxis:insert	_	_
+29	29	_	_	_	_	27	parataxis	_	_
 30	[	_	_	_	_	32	punct	_	_
 31	2,7	_	_	_	_	32	nummod	_	_
 32	%	_	_	_	_	29	appos	_	_
@@ -37018,42 +35797,6 @@
 31	les	_	_	_	_	32	det	_	_
 32	mesures	_	_	_	_	12	obl:mod	_	_
 33	.	_	_	_	_	12	punct	_	_
-
-# sent_id = emea-fr-test_00274
-# text = Une augmentation de 5,4% au fémur total et de 4,3% au col fémoral a été observé sous Aclasta, en comparaison au placebo durant les 24 mois.
-1	Une	_	_	_	_	2	det	_	_
-2	augmentation	_	_	_	_	20	nsubj:pass	_	_
-3	de	_	_	_	_	5	case	_	_
-4	5,4	_	_	_	_	5	nummod	_	_
-5	%	_	_	_	_	2	nmod	_	_
-6	_	_	_	_	_	8	_	_	_
-7	au	_	_	_	_	8	case:det	_	_
-8	fémur	_	_	_	_	2	nmod	_	_
-9	total	_	_	_	_	8	amod	_	_
-10	et	_	_	_	_	13	cc	_	_
-11	de	_	_	_	_	13	case	_	_
-12	4,3	_	_	_	_	13	nummod	_	_
-13	%	_	_	_	_	5	conj	_	_
-14	_	_	_	_	_	16	_	_	_
-15	au	_	_	_	_	16	case:det	_	_
-16	col	_	_	_	_	13	orphan	_	_
-17	fémoral	_	_	_	_	16	amod	_	_
-18	a	_	_	_	_	20	aux:tense	_	_
-19	été	_	_	_	_	20	aux:pass	_	_
-20	observé	_	_	_	_	0	root	_	_
-21	sous	_	_	_	_	22	case	_	_
-22	Aclasta	_	_	_	_	20	obl:mod	_	_
-23	,	_	_	_	_	25	punct	_	_
-24	en	_	_	_	_	25	case	_	_
-25	comparaison	_	_	_	_	20	obl:mod	_	_
-26	_	_	_	_	_	28	_	_	_
-27	au	_	_	_	_	28	case:det	_	_
-28	placebo	_	_	_	_	25	nmod	_	_
-29	durant	_	_	_	_	32	case	_	_
-30	les	_	_	_	_	32	det	_	_
-31	24	_	_	_	_	32	nummod	_	_
-32	mois	_	_	_	_	20	obl:mod	_	_
-33	.	_	_	_	_	20	punct	_	_
 
 # sent_id = emea-fr-test_00275
 # text = Efficacité clinique chez les hommes
@@ -37278,7 +36021,7 @@
 24	à	_	_	_	_	25	case	_	_
 25	modérée	_	_	_	_	23	obl:mod	_	_
 26	(	_	_	_	_	27	punct	_	_
-27	taux	_	_	_	_	23	parataxis:insert	_	_
+27	taux	_	_	_	_	23	parataxis	_	_
 28	médians	_	_	_	_	27	amod	_	_
 29	de	_	_	_	_	30	case	_	_
 30	phosphatases	_	_	_	_	27	nmod	_	_
@@ -37401,7 +36144,7 @@
 50	risédronate	_	_	_	_	38	nmod	_	_
 51	(	_	_	_	_	7	punct	_	_
 52	p	_	_	_	_	53	nsubj	_	_
-53	<	_	_	_	_	7	parataxis:insert	_	_
+53	<	_	_	_	_	7	parataxis	_	_
 54	0,001	_	_	_	_	53	obj	_	_
 55	pour	_	_	_	_	58	case	_	_
 56	toutes	_	_	_	_	58	amod	_	_
@@ -38483,7 +37226,7 @@
 6	hypocalcémie	_	_	_	_	4	obj	_	_
 7	(	_	_	_	_	9	punct	_	_
 8	cela	_	_	_	_	9	nsubj	_	_
-9	signifie	_	_	_	_	6	parataxis:insert	_	_
+9	signifie	_	_	_	_	6	parataxis	_	_
 10	un	_	_	_	_	11	det	_	_
 11	taux	_	_	_	_	9	obj	_	_
 12	de	_	_	_	_	13	case	_	_
@@ -38784,7 +37527,7 @@
 5	suffisamment	_	_	_	_	4	advmod	_	_
 6	(	_	_	_	_	7	punct	_	_
 7	_	_	_	_	_	13	_	_	_
-8	au	_	_	_	_	7	advmod:fixed	_	_
+8	au	_	_	_	_	7	case:det	_	_
 9	moins	_	_	_	_	7	fixed	_	_
 10	un	_	_	_	_	13	det	_	_
 11	à	_	_	_	_	12	case	_	_
@@ -38984,7 +37727,7 @@
 2	perfusion	_	_	_	_	3	nsubj	_	_
 3	durera	_	_	_	_	0	root	_	_
 4	_	_	_	_	_	8	_	_	_
-5	au	_	_	_	_	4	advmod:fixed	_	_
+5	au	_	_	_	_	4	case:det	_	_
 6	moins	_	_	_	_	4	fixed	_	_
 7	15	_	_	_	_	8	nummod	_	_
 8	minutes	_	_	_	_	3	obj	_	_
@@ -39128,7 +37871,7 @@
 2	perfusion	_	_	_	_	3	nsubj	_	_
 3	durera	_	_	_	_	0	root	_	_
 4	_	_	_	_	_	8	_	_	_
-5	au	_	_	_	_	4	advmod:fixed	_	_
+5	au	_	_	_	_	4	case:det	_	_
 6	moins	_	_	_	_	4	fixed	_	_
 7	15	_	_	_	_	8	nummod	_	_
 8	minutes	_	_	_	_	3	obj	_	_
@@ -39192,7 +37935,7 @@
 24	)	_	_	_	_	21	punct	_	_
 25	pendant	_	_	_	_	32	case	_	_
 26	_	_	_	_	_	32	_	_	_
-27	au	_	_	_	_	26	advmod:fixed	_	_
+27	au	_	_	_	_	26	case:det	_	_
 28	moins	_	_	_	_	26	fixed	_	_
 29	les	_	_	_	_	32	det	_	_
 30	10	_	_	_	_	32	nummod	_	_
@@ -40320,7 +39063,7 @@
 13	15	_	_	_	_	14	nummod	_	_
 14	minutes	_	_	_	_	11	obl:mod	_	_
 15	_	_	_	_	_	14	_	_	_
-16	au	_	_	_	_	15	advmod:fixed	_	_
+16	au	_	_	_	_	15	case:det	_	_
 17	moins	_	_	_	_	15	fixed	_	_
 18	.	_	_	_	_	9	punct	_	_
 
@@ -40344,7 +39087,7 @@
 16	de	_	_	_	_	18	case	_	_
 17	la	_	_	_	_	18	det	_	_
 18	créatinine	_	_	_	_	15	nmod	_	_
-19	<	_	_	_	_	11	parataxis:insert	_	_
+19	<	_	_	_	_	11	parataxis	_	_
 20	35	_	_	_	_	21	nummod	_	_
 21	ml	_	_	_	_	19	obj	_	_
 22	/	_	_	_	_	23	case	_	_
@@ -40670,7 +39413,7 @@
 29	calcium-élément	_	_	_	_	27	nmod	_	_
 30	d'	_	_	_	_	35	case	_	_
 31	_	_	_	_	_	35	_	_	_
-32	au	_	_	_	_	31	advmod:fixed	_	_
+32	au	_	_	_	_	31	case:det	_	_
 33	moins	_	_	_	_	31	fixed	_	_
 34	500	_	_	_	_	35	nummod	_	_
 35	mg	_	_	_	_	29	nmod	_	_
@@ -40681,7 +39424,7 @@
 40	,	_	_	_	_	47	punct	_	_
 41	pendant	_	_	_	_	47	case	_	_
 42	_	_	_	_	_	47	_	_	_
-43	au	_	_	_	_	42	advmod:fixed	_	_
+43	au	_	_	_	_	42	case:det	_	_
 44	moins	_	_	_	_	42	fixed	_	_
 45	les	_	_	_	_	47	det	_	_
 46	10	_	_	_	_	47	nummod	_	_

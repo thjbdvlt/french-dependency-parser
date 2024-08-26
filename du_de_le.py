@@ -1,6 +1,24 @@
 import conllu
 import matcher
 
+fp_lookup = "./lookup.txt"
+with open(fp_lookup, 'r') as f:
+    lines = f.readlines()
+
+lines = [i.strip() for i in lines]
+lines = [i for i in lines if i != ""]
+
+label_to_remove = set()
+lookup = {}
+for i in [i for i in lines if not i.startswith('#')]:
+    if i.startswith('-'):
+        label_to_remove.add(i[1:])
+    elif i.count(' ') == 1:
+        x, y = i.split(' ')
+        lookup[x] = y
+    else:
+        raise ValueError("failed to parse lookup.txt:", i)
+
 
 def low(s):
     return s["form"].lower()
@@ -19,7 +37,8 @@ for i in ("dev", "train", "test"):
 
     with open(fp, "a") as f:
         for s in sentences:
-            # remove unused attributes
+
+            # remove unused attributes so i can see something
             for i in s:
                 for a in (
                     "upos",
@@ -31,6 +50,7 @@ for i in ("dev", "train", "test"):
                 ):
                     i[a] = None
 
+            # match the pattern 'du de le' and similar patterns
             for m in matcher.matchmany(
                 s,
                 [
@@ -56,29 +76,20 @@ for i in ("dev", "train", "test"):
                     ],
                 ],
             ):
-                m[2]["deprel"] = f"{m[1]['deprel']}:{m[2]['deprel']}"
+                m[2]["deprel"] = "case:det"
                 m[2]["form"] = m[0]["form"]
                 m[1]["form"] = None
                 m[1]["deprel"] = None
 
-            # i remove reparandum and foreign
+            for i in s:
+                dep = i['deprel']
+                if dep in lookup:
+                    i['deprel'] = lookup[dep]
+
+            # some sentences contains labels that i do not want
             if not any(
                 [
-                    i["deprel"]
-                    and (
-                        "reparandum" in i["deprel"]
-                        # or "foreign" in i["deprel"]
-                        # or ":fixed" in i["deprel"]
-                        # or ":outer" in i["deprel"]
-                        # or "goeswith" in i["deprel"]
-                        # or ":nmod" in i["deprel"]
-                        # or "orphan" in i["deprel"]
-                        # or "compound" in i["deprel"]
-                        # or "dep:" in i["deprel"]
-                        # or "iobj:" in i["deprel"]
-                        # or i["deprel"] == 'aux'
-                        or i["deprel"] == 'dep'
-                    )
+                    i["deprel"] and (i["deprel"] in label_to_remove)
                     for i in s
                 ]
             ):

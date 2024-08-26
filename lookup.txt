@@ -1,0 +1,22 @@
+# lines that start with '-' is for labels that i remove
+# lines that start with '#' are comments and thus ignored
+# empty lines are ignored too
+# are lines with two labels separated by a space are for lookup replacement (first one is replaced by the second one)
+-aux
+-reparandum
+-goeswith
+-dep
+-dep:comp
+-compound
+-orphan
+-flat
+-obl
+-obj:agent
+parataxis:insert parataxis
+parataxis:parenth parataxis
+nsubj:caus nsubj
+nsubj:outer nsubj
+case:nmod case:det
+compound:det case:det
+dep:det case:det
+iobj:agent iobj
