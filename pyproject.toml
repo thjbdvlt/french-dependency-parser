@@ -1,0 +1,30 @@
+[project]
+name = ""
+authors = [{name="thjbdvlt"}]
+version = "0.1.0"
+description = "syntactic dependency parser for french with spacy"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "spacy",
+    "conllu",
+]
+
+[project.urls]
+Homepage = ""
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.ruff]
+exclude = []
+line-length = 72
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = false
