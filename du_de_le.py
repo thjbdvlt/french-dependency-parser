@@ -77,6 +77,7 @@ for i in ("dev", "train", "test"):
                         or "dep:" in i["deprel"]
                         or "iobj:" in i["deprel"]
                         or i["deprel"] == 'aux'
+                        or i["deprel"] == 'dep'
                     )
                     for i in s
                 ]

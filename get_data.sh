@@ -23,6 +23,8 @@ do
     [ -d corpus/${i} ] || git clone ${gh}${i} corpus/${i}
 done
 
+# [ -d corpus/Sequoia ] || git clone ${gh}Sequoia corpus/Sequoia
+
 # delete some useless directories and files
 for i in $(fd not-to-release)
 do
@@ -48,7 +50,7 @@ done
 python3 remove_underscore.py
 
 # make space-separated docs to avoid tokenization mismatching
-python3 splittokens.py
+python3 split_tokens.py
 
 
 # # download model, unzip, extract
