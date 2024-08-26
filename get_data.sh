@@ -52,16 +52,5 @@ python3 remove_underscore.py
 # make space-separated docs to avoid tokenization mismatching
 python3 split_tokens.py
 
-
-# # download model, unzip, extract
-# if ! [ -d model ]
-# then
-#     wget \
-#         https://github.com/thjbdvlt/turlututu/releases/download/v0.0.1/model-2024-07-21-00h40.tar.gz \
-#         -O model.tar.gz
-#     gunzip model.tar.gz
-#     tar -xvf model.tar
-# fi
-#
-# # delete archive, only keeping the directory model
-# rm model.tar -rf
+# TODO: download vectors from french_word_vectors
+# TODO: convert vectors from word2vec to spacy format

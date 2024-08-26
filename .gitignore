@@ -8,3 +8,5 @@ model
 vectors
 test.py
 tests
+*.tar
+*.gz

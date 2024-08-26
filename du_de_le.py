@@ -67,16 +67,16 @@ for i in ("dev", "train", "test"):
                     i["deprel"]
                     and (
                         "reparandum" in i["deprel"]
-                        or "foreign" in i["deprel"]
-                        or ":fixed" in i["deprel"]
-                        or ":outer" in i["deprel"]
-                        or "goeswith" in i["deprel"]
-                        or ":nmod" in i["deprel"]
-                        or "orphan" in i["deprel"]
-                        or "compound" in i["deprel"]
-                        or "dep:" in i["deprel"]
-                        or "iobj:" in i["deprel"]
-                        or i["deprel"] == 'aux'
+                        # or "foreign" in i["deprel"]
+                        # or ":fixed" in i["deprel"]
+                        # or ":outer" in i["deprel"]
+                        # or "goeswith" in i["deprel"]
+                        # or ":nmod" in i["deprel"]
+                        # or "orphan" in i["deprel"]
+                        # or "compound" in i["deprel"]
+                        # or "dep:" in i["deprel"]
+                        # or "iobj:" in i["deprel"]
+                        # or i["deprel"] == 'aux'
                         or i["deprel"] == 'dep'
                     )
                     for i in s
