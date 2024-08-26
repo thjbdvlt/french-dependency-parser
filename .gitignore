@@ -1,5 +1,4 @@
 corpus
-*.conllu
 *.spacy
 venv
 __pycache__
