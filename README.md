@@ -23,14 +23,6 @@ upon that, some labels are replaced by others, and sentences containing certain 
 usage
 -----
 
-download the model from the releases:
-
-```bash
-wget https://github.com/thjbdvlt/french-dependency-parser/releases/download/v0.0.1/model.tar.gz
-gunzip model.tar
-tar xvf model
-```
-
 the __parser__ is not a full pipeline. you have to source it from another pipeline as a component:
 
 ```python3
