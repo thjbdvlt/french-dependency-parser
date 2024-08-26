@@ -19,3 +19,21 @@ is transformed into:
 ```
 
 upon that, some labels are replaced by others, and sentences containing certain labels (such as `dep` which indicates than the parsing failed) are removed. for a list of replaced or removed labels, refer the file [lookup.txt](./lookup.txt).
+
+usage
+-----
+
+the __parser__ is not a full pipeline. you have to _source_ it from another pipeline as a _component_:
+
+```python3
+import spacy
+
+# load your main pipeline
+nlp = spacy.load('fr_core_news_sm', exclude=['parser'])
+
+# load the model containing the parser
+nlp_deps = spacy.load('./model', exclude=['tokenizer'])
+
+# put the parser in the main pipeline
+nlp.add_pipe('parser', source=nlp_deps)
+```
