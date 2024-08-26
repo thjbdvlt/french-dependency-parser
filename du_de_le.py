@@ -19,6 +19,18 @@ for i in ("dev", "train", "test"):
 
     with open(fp, "a") as f:
         for s in sentences:
+            # remove unused attributes
+            for i in s:
+                for a in (
+                    "upos",
+                    "xpos",
+                    "feats",
+                    "misc",
+                    "deps",
+                    "lemma",
+                ):
+                    i[a] = None
+
             for m in matcher.matchmany(
                 s,
                 [
@@ -45,7 +57,28 @@ for i in ("dev", "train", "test"):
                 ],
             ):
                 m[2]["deprel"] = f"{m[1]['deprel']}:{m[2]['deprel']}"
-                m[2]["form"] = m[0]["form"] 
+                m[2]["form"] = m[0]["form"]
                 m[1]["form"] = None
                 m[1]["deprel"] = None
-            f.write(s.serialize())
+
+            # i remove reparandum and foreign
+            if not any(
+                [
+                    i["deprel"]
+                    and (
+                        "reparandum" in i["deprel"]
+                        or "foreign" in i["deprel"]
+                        or ":fixed" in i["deprel"]
+                        or ":outer" in i["deprel"]
+                        or "goeswith" in i["deprel"]
+                        or ":nmod" in i["deprel"]
+                        or "orphan" in i["deprel"]
+                        or "compound" in i["deprel"]
+                        or "dep:" in i["deprel"]
+                        or "iobj:" in i["deprel"]
+                        or i["deprel"] == 'aux'
+                    )
+                    for i in s
+                ]
+            ):
+                f.write(s.serialize())
