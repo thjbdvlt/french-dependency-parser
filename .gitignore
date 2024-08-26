@@ -1,0 +1,7 @@
+corpus
+*.conllu
+venv
+__pycache__
+model
+docbin
+.tags
