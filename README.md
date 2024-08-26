@@ -4,8 +4,7 @@ this repository is comprised of scripts that fetch and prepare data to train a [
 
 the data used for the training is an aggregation of three [UD](https://universaldependencies.org/) datasets and makes some minor changes to these datasets.
 
-
-the following:
+in the datasets i used, the word _du_ is splitted into its logical component _de_ and _le_. but in texts i analyse with the __parser__ i want to train, _du_ isn't splitted at all, so i need to unsplit it, and the following:
 
 ```conllu
 11-12	du	...	_	_	_	_
@@ -16,7 +15,7 @@ the following:
 is transformed into:
 
 ```conllu
-11	de	...	19	case:det	_	_
+11	du	...	19	case:det	_	_
 ```
 
-some labels are replaced by others, and sentences containing certain labels (such as `dep` which indicates than the parsing failed) are removed. for a list of replaced or removed labels, refer the file [lookup.txt](./lookup.txt).
+upon that, some labels are replaced by others, and sentences containing certain labels (such as `dep` which indicates than the parsing failed) are removed. for a list of replaced or removed labels, refer the file [lookup.txt](./lookup.txt).
