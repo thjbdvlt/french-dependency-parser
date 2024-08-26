@@ -8,15 +8,15 @@ the data used for the training is an aggregation of three [UD](https://universal
 the following:
 
 ```conllu
-11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	...	19	case	_	_
-12	le	le	DET	_	...	11	det	_	_
+11-12	du	...	_	_	_	_
+11	de	...	19	case	_	_
+12	le	...	11	det	_	_
 ```
 
 is transformed into:
 
 ```conllu
-11	de	de	ADP	_	...	19	case:det	_	_
+11	de	...	19	case:det	_	_
 ```
 
 some labels are replaced by others, and sentences containing certain labels (such as `dep` which indicates than the parsing failed) are removed. for a list of replaced or removed labels, refer the file [lookup.txt](./lookup.txt).
