@@ -23,7 +23,7 @@ upon that, some labels are replaced by others, and sentences containing certain 
 usage
 -----
 
-the __parser__ is not a full pipeline. you have to _source_ it from another pipeline as a _component_:
+the __parser__ is not a full pipeline. you have to source it from another pipeline as a component:
 
 ```python3
 import spacy
