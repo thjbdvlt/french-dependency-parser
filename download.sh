@@ -27,3 +27,9 @@ for i in $(fd not-to-release)
 do
     rm -rf "$i"
 done
+
+# concatenate files
+for i in train dev test
+do
+    cat $(fd -I ${i}.conllu$) > ${i}.conllu
+done
