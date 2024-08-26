@@ -1,7 +1,8 @@
 corpus
 *.conllu
+*.spacy
 venv
 __pycache__
 model
-docbin
 .tags
+vectors

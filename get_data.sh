@@ -12,7 +12,6 @@ gh=https://github.com/UniversalDependencies/UD_French-
 
 # create directories
 [ -d corpus ] || mkdir corpus
-[ -d docbin ] || mkdir docbin
 
 # iterate repositories
 for i in \
@@ -33,8 +32,11 @@ done
 for i in train dev test
 do
     [ -f ${i}.conllu ] || cat $(fd -I ${i}.conllu$) > ${i}.conllu
-    spacy convert ${i}.conllu docbin -n 10
+    echo "converting ${i} from .conllu to spacy format..."
+    [ -f ${i}.spacy ] || spacy convert ${i}.conllu . -n 10
 done
+
+python3 splittokens.py
 
 # download model, unzip, extract
 if ! [ -d model ]
